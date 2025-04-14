@@ -1,0 +1,149 @@
+[WARNING] [2025-03-17  15:31:28.157] : warning log.py -> <module> line:57 
+[ERROR] [2025-03-17  15:31:28.157] : error log.py -> <module> line:58 
+[CRITICAL] [2025-03-17  15:31:28.158] : critical log.py -> <module> line:59 
+[INFO] [2025-03-17  15:35:50.214] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  15:35:50.215] : sql：select * from shop_user sql.py -> execute line:21 
+[INFO] [2025-03-17  15:35:50.216] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  15:48:17.354] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  15:48:17.356] : sql：select * from shop_user sql.py -> execute line:21 
+[INFO] [2025-03-17  15:48:17.358] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  15:49:06.551] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  15:49:06.551] : sql：SELECT USERID FROM shop_user WHERE USER_NAME = test_name sql.py -> execute line:21 
+[ERROR] [2025-03-17  15:49:06.552] : 执行sql出现错误，异常为(1054, "Unknown column 'USERID' in 'field list'") sql.py -> execute line:28 
+[INFO] [2025-03-17  15:49:06.556] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  15:49:27.579] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  15:49:27.579] : sql：SELECT USER_ID FROM shop_user WHERE USER_NAME = test_name sql.py -> execute line:21 
+[ERROR] [2025-03-17  15:49:27.580] : 执行sql出现错误，异常为(1054, "Unknown column 'test_name' in 'where clause'") sql.py -> execute line:28 
+[INFO] [2025-03-17  15:49:27.585] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  15:53:18.953] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  15:53:18.954] : sql：SELECT user_id FROM shop_user WHERE user_name = test_name sql.py -> execute line:21 
+[ERROR] [2025-03-17  15:53:18.954] : 执行sql出现错误，异常为(1054, "Unknown column 'test_name' in 'where clause'") sql.py -> execute line:28 
+[INFO] [2025-03-17  15:53:18.958] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  15:58:52.418] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  15:58:52.419] : sql：SELECT user_id FROM shop_user WHERE user_name = 'test' sql.py -> execute line:21 
+[INFO] [2025-03-17  15:58:52.421] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  16:13:49.485] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  16:13:49.485] : sql：SELECT user_id FROM shop_user WHERE user_name = (test_name) sql.py -> execute line:21 
+[ERROR] [2025-03-17  16:13:49.486] : 执行sql出现错误，异常为(1054, "Unknown column 'test_name' in 'where clause'") sql.py -> execute line:28 
+[INFO] [2025-03-17  16:13:49.490] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  16:14:24.260] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  16:14:24.262] : sql：SELECT user_id FROM shop_user WHERE user_name = $test_name sql.py -> execute line:21 
+[ERROR] [2025-03-17  16:14:24.262] : 执行sql出现错误，异常为(1054, "Unknown column '$test_name' in 'where clause'") sql.py -> execute line:28 
+[INFO] [2025-03-17  16:14:24.266] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  16:29:04.407] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  16:29:04.407] : sql：SELECT user_id FROM shop_user WHERE user_name = 'test' sql.py -> execute line:21 
+[INFO] [2025-03-17  16:29:04.408] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  16:36:38.069] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  16:36:38.070] : sql：SELECT * from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:21 
+[INFO] [2025-03-17  16:36:38.071] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  16:41:15.194] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  16:41:15.195] : sql：select * from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s)) sql.py -> execute line:21 
+[INFO] [2025-03-17  16:41:15.196] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  16:52:12.513] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  16:52:12.514] : sql：select * from shop_orderitem join shop_order on shop_orderitem.order_id = shop_order.order_id join shop_user on shop_order.user_id = shop_user.user_id where shop_user.user_name = %s sql.py -> execute line:21 
+[INFO] [2025-03-17  16:52:12.521] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  17:01:43.673] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  17:01:43.673] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:21 
+[INFO] [2025-03-17  17:01:43.673] : sql：delete from shop_orderitem join shop_order on shop_orderitem.order_id = shop_order.order_id join shop_user on shop_order.user_id = shop_user.user_id where shop_user.user_name = %s sql.py -> execute line:21 
+[ERROR] [2025-03-17  17:01:43.673] : 执行sql出现错误，异常为(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shop_order on shop_orderitem.order_id = shop_order.order_id join shop_user ' at line 1") sql.py -> execute line:28 
+[INFO] [2025-03-17  17:01:43.673] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  17:15:55.022] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  17:15:55.023] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:21 
+[INFO] [2025-03-17  17:15:55.024] : sql：delete shop_orderitem from shop_orderitem join shop_order on shop_orderitem.order_id = shop_order.order_id join shop_user on shop_order.user_id = shop_user.user_id where shop_user.user_name = %s sql.py -> execute line:21 
+[INFO] [2025-03-17  17:15:55.025] : sql：delete from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:21 
+[INFO] [2025-03-17  17:15:55.026] : sql：delete from shop_user where user_id = %s sql.py -> execute line:21 
+[ERROR] [2025-03-17  17:15:55.027] : 执行sql出现错误，异常为(1292, "Truncated incorrect DOUBLE value: 'test'") sql.py -> execute line:28 
+[INFO] [2025-03-17  17:15:55.032] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  17:22:31.310] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  17:22:31.310] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:21 
+[INFO] [2025-03-17  17:22:31.311] : sql：DELETE FROM shop_orderitem USING shop_order, shop_user WHERE shop_orderitem.order_id = shop_order.order_id AND shop_order.user_id = shop_user.user_id AND shop_user.user_name = %s sql.py -> execute line:21 
+[ERROR] [2025-03-17  17:22:31.312] : 执行sql出现错误，异常为(1109, "Unknown table 'shop_orderitem' in MULTI DELETE") sql.py -> execute line:28 
+[INFO] [2025-03-17  17:22:31.316] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  17:30:06.262] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  17:30:06.262] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:21 
+[INFO] [2025-03-17  17:30:06.263] : sql：DELETE FROM shop_orderitem order_id IN (select shop_order.order_id from shop_order join shop_user on shop_order.user_id = shop_user.user_id where shop_user.user_name = %s sql.py -> execute line:21 
+[ERROR] [2025-03-17  17:30:06.264] : 执行sql出现错误，异常为(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IN (select shop_order.order_id from shop_order join shop_user on shop_order.user' at line 1") sql.py -> execute line:28 
+[INFO] [2025-03-17  17:30:06.268] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  17:31:06.411] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  17:31:06.411] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:21 
+[INFO] [2025-03-17  17:31:06.412] : sql：DELETE FROM shop_orderitem order_id IN (select order_id from shop_order join shop_user on shop_order.user_id = shop_user.user_id where shop_user.user_name = %s sql.py -> execute line:21 
+[ERROR] [2025-03-17  17:31:06.412] : 执行sql出现错误，异常为(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IN (select order_id from shop_order join shop_user on shop_order.user_id = shop_' at line 1") sql.py -> execute line:28 
+[INFO] [2025-03-17  17:31:06.416] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  17:33:09.780] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  17:33:09.781] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:21 
+[INFO] [2025-03-17  17:33:09.782] : sql：DELETE FROM shop_orderitem order_id IN (select order_id from shop_order join shop_user on shop_order.user_id = shop_user.user_id where shop_user.user_name = %s) sql.py -> execute line:21 
+[ERROR] [2025-03-17  17:33:09.783] : 执行sql出现错误，异常为(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'IN (select order_id from shop_order join shop_user on shop_order.user_id = shop_' at line 1") sql.py -> execute line:28 
+[INFO] [2025-03-17  17:33:09.786] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  17:35:34.743] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  17:35:34.743] : sql：DELETE FROM shop_orderitem WHERE order_id IN (SELECT so.order_id FROM shop_order so JOIN shop_user su ON so.user_id = su.user_id WHERE su.user_name = %s) sql.py -> execute line:21 
+[INFO] [2025-03-17  17:35:34.752] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:21 
+[INFO] [2025-03-17  17:35:34.753] : sql：delete from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:21 
+[INFO] [2025-03-17  17:35:34.753] : sql：delete from shop_user where user_id = %s sql.py -> execute line:21 
+[ERROR] [2025-03-17  17:35:34.754] : 执行sql出现错误，异常为(1292, "Truncated incorrect DOUBLE value: 'test'") sql.py -> execute line:28 
+[INFO] [2025-03-17  17:35:34.756] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  17:38:45.480] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  17:38:45.480] : sql：delete from shop_orderitem join shop_order on shop_orderitem.order_id = shop_order.order_id join shop_user on shop_order.user_id = shop_user.user_id where shop_user.user_name = %s sql.py -> execute line:21 
+[ERROR] [2025-03-17  17:38:45.480] : 执行sql出现错误，异常为(1064, "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'join shop_order on shop_orderitem.order_id = shop_order.order_id join shop_user ' at line 1") sql.py -> execute line:28 
+[INFO] [2025-03-17  17:38:45.480] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  17:40:57.441] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  17:40:57.441] : sql：delete from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s))delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:21 
+[ERROR] [2025-03-17  17:40:57.441] : 执行sql出现错误，异常为not enough arguments for format string sql.py -> execute line:28 
+[INFO] [2025-03-17  17:40:57.452] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  17:42:29.466] : 连接数据库：localhost/shop sql.py -> __init__ line:10 
+[INFO] [2025-03-17  17:42:29.466] : sql：delete from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s)) sql.py -> execute line:21 
+[INFO] [2025-03-17  17:42:29.482] : 关闭数据库 sql.py -> __del__ line:16 
+[INFO] [2025-03-17  17:44:27.228] : 连接数据库：localhost/shop sql.py -> __init__ line:11 
+[INFO] [2025-03-17  17:44:27.231] : sql：delete from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s))delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[ERROR] [2025-03-17  17:44:27.231] : 执行sql出现错误，异常为not enough arguments for format string sql.py -> execute line:29 
+[INFO] [2025-03-17  17:44:27.232] : 关闭数据库 sql.py -> __del__ line:17 
+[INFO] [2025-03-17  17:45:48.211] : 连接数据库：localhost/shop sql.py -> __init__ line:11 
+[INFO] [2025-03-17  17:45:48.211] : sql：delete from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s))delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[ERROR] [2025-03-17  17:45:48.211] : 执行sql出现错误，异常为not enough arguments for format string sql.py -> execute line:29 
+[INFO] [2025-03-17  17:45:48.215] : 关闭数据库 sql.py -> __del__ line:17 
+[INFO] [2025-03-17  17:47:13.760] : 连接数据库：localhost/shop sql.py -> __init__ line:11 
+[INFO] [2025-03-17  17:47:13.762] : sql：delete from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s)) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:47:13.762] : 关闭数据库 sql.py -> __del__ line:17 
+[INFO] [2025-03-17  17:47:44.903] : 连接数据库：localhost/shop sql.py -> __init__ line:11 
+[INFO] [2025-03-17  17:47:44.903] : sql：delete from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s))delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[ERROR] [2025-03-17  17:47:44.903] : 执行sql出现错误，异常为not enough arguments for format string sql.py -> execute line:29 
+[INFO] [2025-03-17  17:47:44.903] : 关闭数据库 sql.py -> __del__ line:17 
+[INFO] [2025-03-17  17:48:36.292] : 连接数据库：localhost/shop sql.py -> __init__ line:11 
+[INFO] [2025-03-17  17:48:36.292] : sql：delete from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s)) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:48:36.292] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:48:36.292] : sql：delete from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:48:36.292] : sql：delete from shop_user where user_id = %s sql.py -> execute line:22 
+[ERROR] [2025-03-17  17:48:36.292] : 执行sql出现错误，异常为(1292, "Truncated incorrect DOUBLE value: 'test'") sql.py -> execute line:29 
+[INFO] [2025-03-17  17:48:36.292] : 关闭数据库 sql.py -> __del__ line:17 
+[INFO] [2025-03-17  17:49:00.623] : 连接数据库：localhost/shop sql.py -> __init__ line:11 
+[INFO] [2025-03-17  17:49:00.623] : sql：delete from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s)) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:49:00.623] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:49:00.623] : sql：delete from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:49:00.623] : sql：delete from shop_user where user_id = %s sql.py -> execute line:22 
+[ERROR] [2025-03-17  17:49:00.631] : 执行sql出现错误，异常为(1292, "Truncated incorrect DOUBLE value: 'test'") sql.py -> execute line:29 
+[INFO] [2025-03-17  17:49:00.635] : 关闭数据库 sql.py -> __del__ line:17 
+[INFO] [2025-03-17  17:50:28.165] : 连接数据库：localhost/shop sql.py -> __init__ line:11 
+[INFO] [2025-03-17  17:50:28.165] : sql：delete from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s)) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:51:31.209] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:51:42.867] : sql：delete from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:52:03.778] : sql：delete from shop_user where user_id = %s sql.py -> execute line:22 
+[INFO] [2025-03-17  17:55:06.889] : 连接数据库：localhost/shop sql.py -> __init__ line:11 
+[INFO] [2025-03-17  17:55:06.889] : sql：delete from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s)) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:55:06.889] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:55:06.889] : sql：delete from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:55:06.889] : sql：delete from shop_user where user_name = %s sql.py -> execute line:22 
+[INFO] [2025-03-17  17:55:06.900] : 关闭数据库 sql.py -> __del__ line:17 
+[INFO] [2025-03-17  17:55:47.513] : 连接数据库：localhost/shop sql.py -> __init__ line:11 
+[INFO] [2025-03-17  17:55:47.513] : sql：delete from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s)) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:55:47.513] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:55:47.513] : sql：delete from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:55:47.513] : sql：delete from shop_user where user_name = %s sql.py -> execute line:22 
+[INFO] [2025-03-17  17:55:47.513] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(5, 'test', '000', '123456', '123@qq.com', '门头沟', 0) sql.py -> execute line:22 
+[ERROR] [2025-03-17  17:55:47.513] : 执行sql出现错误，异常为not all arguments converted during string formatting sql.py -> execute line:29 
+[INFO] [2025-03-17  17:55:47.529] : 关闭数据库 sql.py -> __del__ line:17 
+[INFO] [2025-03-17  17:57:01.315] : 连接数据库：localhost/shop sql.py -> __init__ line:11 
+[INFO] [2025-03-17  17:57:01.316] : sql：delete from shop_orderitem where order_id = (select order_id from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s)) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:57:01.317] : sql：delete from shop_cart where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:57:01.317] : sql：delete from shop_order where user_id = (SELECT user_id FROM shop_user WHERE user_name = %s) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:57:01.318] : sql：delete from shop_user where user_name = %s sql.py -> execute line:22 
+[INFO] [2025-03-17  17:57:01.318] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(5, %s, '000', '123456', '123@qq.com', '门头沟', 0) sql.py -> execute line:22 
+[INFO] [2025-03-17  17:57:01.322] : 关闭数据库 sql.py -> __del__ line:17 
