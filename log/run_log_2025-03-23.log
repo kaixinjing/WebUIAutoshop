@@ -1,0 +1,387 @@
+[ERROR] [2025-03-23  11:47:27.903] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E94FE15+26629]
+	(No symbol) [0x00007FF75E8B5FE0]
+	(No symbol) [0x00007FF75E74931A]
+	(No symbol) [0x00007FF75E79F8E7]
+	(No symbol) [0x00007FF75E79FB1C]
+	(No symbol) [0x00007FF75E7F34A7]
+	(No symbol) [0x00007FF75E7C7AEF]
+	(No symbol) [0x00007FF75E7F0169]
+	(No symbol) [0x00007FF75E7C7883]
+	(No symbol) [0x00007FF75E790550]
+	(No symbol) [0x00007FF75E791803]
+	GetHandleVerifier [0x00007FF75ECA728D+3529853]
+	GetHandleVerifier [0x00007FF75ECBD9F2+3621858]
+	GetHandleVerifier [0x00007FF75ECB24A3+3575443]
+	GetHandleVerifier [0x00007FF75EA1B74A+860474]
+	(No symbol) [0x00007FF75E8C085F]
+	(No symbol) [0x00007FF75E8BCB94]
+	(No symbol) [0x00007FF75E8BCD36]
+	(No symbol) [0x00007FF75E8AC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-23  11:47:40.489] : 尝试 2 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E94FE15+26629]
+	(No symbol) [0x00007FF75E8B5FE0]
+	(No symbol) [0x00007FF75E74931A]
+	(No symbol) [0x00007FF75E79F8E7]
+	(No symbol) [0x00007FF75E79FB1C]
+	(No symbol) [0x00007FF75E7F34A7]
+	(No symbol) [0x00007FF75E7C7AEF]
+	(No symbol) [0x00007FF75E7F0169]
+	(No symbol) [0x00007FF75E7C7883]
+	(No symbol) [0x00007FF75E790550]
+	(No symbol) [0x00007FF75E791803]
+	GetHandleVerifier [0x00007FF75ECA728D+3529853]
+	GetHandleVerifier [0x00007FF75ECBD9F2+3621858]
+	GetHandleVerifier [0x00007FF75ECB24A3+3575443]
+	GetHandleVerifier [0x00007FF75EA1B74A+860474]
+	(No symbol) [0x00007FF75E8C085F]
+	(No symbol) [0x00007FF75E8BCB94]
+	(No symbol) [0x00007FF75E8BCD36]
+	(No symbol) [0x00007FF75E8AC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-23  11:47:53.051] : 尝试 3 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E94FE15+26629]
+	(No symbol) [0x00007FF75E8B5FE0]
+	(No symbol) [0x00007FF75E74931A]
+	(No symbol) [0x00007FF75E79F8E7]
+	(No symbol) [0x00007FF75E79FB1C]
+	(No symbol) [0x00007FF75E7F34A7]
+	(No symbol) [0x00007FF75E7C7AEF]
+	(No symbol) [0x00007FF75E7F0169]
+	(No symbol) [0x00007FF75E7C7883]
+	(No symbol) [0x00007FF75E790550]
+	(No symbol) [0x00007FF75E791803]
+	GetHandleVerifier [0x00007FF75ECA728D+3529853]
+	GetHandleVerifier [0x00007FF75ECBD9F2+3621858]
+	GetHandleVerifier [0x00007FF75ECB24A3+3575443]
+	GetHandleVerifier [0x00007FF75EA1B74A+860474]
+	(No symbol) [0x00007FF75E8C085F]
+	(No symbol) [0x00007FF75E8BCB94]
+	(No symbol) [0x00007FF75E8BCD36]
+	(No symbol) [0x00007FF75E8AC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-23  11:47:53.051] : Element 不存在 after 3 attempts: ('xpath', "//input[@placeholder='请输入用户名']") BasePage.py -> find_element line:89 
+[ERROR] [2025-03-23  11:47:53.051] : 登录异常：Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E94FE15+26629]
+	(No symbol) [0x00007FF75E8B5FE0]
+	(No symbol) [0x00007FF75E74931A]
+	(No symbol) [0x00007FF75E79F8E7]
+	(No symbol) [0x00007FF75E79FB1C]
+	(No symbol) [0x00007FF75E7F34A7]
+	(No symbol) [0x00007FF75E7C7AEF]
+	(No symbol) [0x00007FF75E7F0169]
+	(No symbol) [0x00007FF75E7C7883]
+	(No symbol) [0x00007FF75E790550]
+	(No symbol) [0x00007FF75E791803]
+	GetHandleVerifier [0x00007FF75ECA728D+3529853]
+	GetHandleVerifier [0x00007FF75ECBD9F2+3621858]
+	GetHandleVerifier [0x00007FF75ECB24A3+3575443]
+	GetHandleVerifier [0x00007FF75EA1B74A+860474]
+	(No symbol) [0x00007FF75E8C085F]
+	(No symbol) [0x00007FF75E8BCB94]
+	(No symbol) [0x00007FF75E8BCD36]
+	(No symbol) [0x00007FF75E8AC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ Event.py -> event_login line:15 
+[INFO] [2025-03-23  11:50:02.124] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  11:50:02.444] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  11:50:03.691] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：2vft BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  11:50:03.762] : 点击：用户登录 BasePage.py -> click line:103 
+[INFO] [2025-03-23  11:57:20.240] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  11:57:20.566] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  11:57:21.406] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：wotp BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  11:57:21.482] : 点击：用户登录 BasePage.py -> click line:103 
+[INFO] [2025-03-23  12:06:46.655] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:06:46.972] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:06:47.775] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：nuo1 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:06:47.864] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  12:07:08.999] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  12:15:52.009] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:15:52.343] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:15:53.032] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：E1cu2 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:15:53.124] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  12:15:53.757] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Leeax BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:15:53.799] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  12:15:54.740] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：q1ip BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:15:54.819] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  12:15:58.654] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  12:24:42.728] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:24:43.105] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:24:43.838] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：uhs0 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:24:43.907] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  12:24:46.979] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  12:24:47.704] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  12:28:00.103] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:28:00.408] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:28:01.153] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：ruop BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:28:01.254] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  12:28:04.651] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  12:28:05.301] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  12:28:05.431] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  12:29:58.766] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:29:59.080] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:29:59.861] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：nvpr BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:29:59.917] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  12:30:03.259] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  12:30:03.949] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  12:30:05.055] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  12:34:38.835] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:34:39.169] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:34:40.119] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Leipf BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:34:40.197] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  12:34:40.769] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：3a8m BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:34:40.815] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  12:34:42.234] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  12:34:42.635] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  12:34:43.258] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  12:37:00.295] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:37:00.602] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:37:01.336] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：qkup BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  12:37:01.385] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  12:37:02.899] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  12:37:03.229] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  12:37:03.670] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[ERROR] [2025-03-23  12:37:36.783] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E94FE15+26629]
+	(No symbol) [0x00007FF75E8B5FE0]
+	(No symbol) [0x00007FF75E74931A]
+	(No symbol) [0x00007FF75E79F8E7]
+	(No symbol) [0x00007FF75E79FB1C]
+	(No symbol) [0x00007FF75E7F34A7]
+	(No symbol) [0x00007FF75E7C7AEF]
+	(No symbol) [0x00007FF75E7F0169]
+	(No symbol) [0x00007FF75E7C7883]
+	(No symbol) [0x00007FF75E790550]
+	(No symbol) [0x00007FF75E791803]
+	GetHandleVerifier [0x00007FF75ECA728D+3529853]
+	GetHandleVerifier [0x00007FF75ECBD9F2+3621858]
+	GetHandleVerifier [0x00007FF75ECB24A3+3575443]
+	GetHandleVerifier [0x00007FF75EA1B74A+860474]
+	(No symbol) [0x00007FF75E8C085F]
+	(No symbol) [0x00007FF75E8BCB94]
+	(No symbol) [0x00007FF75E8BCD36]
+	(No symbol) [0x00007FF75E8AC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-23  12:37:49.331] : 尝试 2 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E94FE15+26629]
+	(No symbol) [0x00007FF75E8B5FE0]
+	(No symbol) [0x00007FF75E74931A]
+	(No symbol) [0x00007FF75E79F8E7]
+	(No symbol) [0x00007FF75E79FB1C]
+	(No symbol) [0x00007FF75E7F34A7]
+	(No symbol) [0x00007FF75E7C7AEF]
+	(No symbol) [0x00007FF75E7F0169]
+	(No symbol) [0x00007FF75E7C7883]
+	(No symbol) [0x00007FF75E790550]
+	(No symbol) [0x00007FF75E791803]
+	GetHandleVerifier [0x00007FF75ECA728D+3529853]
+	GetHandleVerifier [0x00007FF75ECBD9F2+3621858]
+	GetHandleVerifier [0x00007FF75ECB24A3+3575443]
+	GetHandleVerifier [0x00007FF75EA1B74A+860474]
+	(No symbol) [0x00007FF75E8C085F]
+	(No symbol) [0x00007FF75E8BCB94]
+	(No symbol) [0x00007FF75E8BCD36]
+	(No symbol) [0x00007FF75E8AC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-23  12:38:01.870] : 尝试 3 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF75E94FE15+26629]
+	(No symbol) [0x00007FF75E8B5FE0]
+	(No symbol) [0x00007FF75E74931A]
+	(No symbol) [0x00007FF75E79F8E7]
+	(No symbol) [0x00007FF75E79FB1C]
+	(No symbol) [0x00007FF75E7F34A7]
+	(No symbol) [0x00007FF75E7C7AEF]
+	(No symbol) [0x00007FF75E7F0169]
+	(No symbol) [0x00007FF75E7C7883]
+	(No symbol) [0x00007FF75E790550]
+	(No symbol) [0x00007FF75E791803]
+	GetHandleVerifier [0x00007FF75ECA728D+3529853]
+	GetHandleVerifier [0x00007FF75ECBD9F2+3621858]
+	GetHandleVerifier [0x00007FF75ECB24A3+3575443]
+	GetHandleVerifier [0x00007FF75EA1B74A+860474]
+	(No symbol) [0x00007FF75E8C085F]
+	(No symbol) [0x00007FF75E8BCB94]
+	(No symbol) [0x00007FF75E8BCD36]
+	(No symbol) [0x00007FF75E8AC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-23  12:38:01.872] : Element 不存在 after 3 attempts: ('xpath', '/html[1]/body[1]/div[2]/div[2]/div[5]/div[2]') BasePage.py -> find_element line:89 
+[INFO] [2025-03-23  13:03:49.940] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:03:50.285] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:03:51.160] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Ldtc0 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:03:51.225] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:03:51.828] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L2kn7 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:03:51.869] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:03:52.443] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lsw2c BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:03:52.520] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:03:53.459] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：F2r7 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:03:53.525] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:03:54.508] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：tJii BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:03:54.611] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:03:55.715] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lwbw2 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:03:55.834] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:03:57.001] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lfq7f BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:03:57.109] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:03:58.499] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Ltcqm BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:03:58.599] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:03:59.910] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：msn2 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:04:00.043] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:04:01.727] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  13:04:02.082] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  13:04:02.226] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  13:06:39.506] : 购物车总金额为：0 ShopCar.py -> sum_money line:86 
+[INFO] [2025-03-23  13:08:55.177] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:08:55.518] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:08:56.214] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：b3s4 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:08:56.274] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:08:57.866] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  13:08:58.211] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  13:08:58.750] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  13:13:10.714] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:13:11.090] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:13:11.916] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L77qj BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:13:12.001] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:13:12.588] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lt68j BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:13:12.638] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:13:13.242] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lez7t BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:13:13.296] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:13:14.430] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：h9to BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:13:14.521] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:13:15.914] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  13:13:16.300] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  13:13:16.441] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  13:14:17.095] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:14:17.396] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:14:18.149] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：tf90 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:14:18.219] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:14:19.545] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  13:14:19.830] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  13:14:20.491] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  13:42:54.785] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:42:55.132] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:42:55.978] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L94fn BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:42:56.109] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:42:57.385] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：posz BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:42:57.501] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:42:59.084] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  13:42:59.471] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  13:43:00.045] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  13:45:47.886] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:45:48.184] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:45:48.952] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：tsik BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:45:49.009] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:45:50.510] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  13:45:50.849] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  13:45:51.540] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  13:47:27.325] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:47:27.646] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:47:28.385] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L6i9i BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:47:28.437] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:47:29.066] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lgg4f BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:47:29.107] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:47:29.706] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lz3b4 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:47:29.789] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:47:30.951] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：aI09 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:47:31.049] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:47:32.332] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：1uag BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:47:32.434] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:47:33.930] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  13:47:34.357] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  13:47:34.474] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  13:49:20.826] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:49:21.157] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:49:21.877] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：8gsm BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:49:21.957] : 点击：用户登录 BasePage.py -> click line:104 
+[INFO] [2025-03-23  13:49:23.564] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  13:49:23.895] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  13:49:24.694] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  13:58:12.259] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:58:12.578] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:58:13.241] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：6kec BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  13:58:13.288] : 点击：用户登录 BasePage.py -> click line:120 
+[INFO] [2025-03-23  13:58:14.503] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  13:58:14.834] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  13:58:14.913] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  14:04:11.463] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:04:11.771] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:04:12.546] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：r4x6 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:04:12.638] : 点击：用户登录 BasePage.py -> click line:120 
+[INFO] [2025-03-23  14:04:13.946] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  14:04:14.413] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  14:04:15.099] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  14:08:12.387] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:08:12.714] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:08:13.524] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：fnob BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:08:13.603] : 点击：用户登录 BasePage.py -> click line:120 
+[INFO] [2025-03-23  14:08:15.009] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  14:08:15.486] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  14:08:15.563] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  14:14:17.213] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:14:17.571] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:14:18.394] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：f4ft BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:14:18.454] : 点击：用户登录 BasePage.py -> click line:120 
+[INFO] [2025-03-23  14:14:19.997] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  14:14:20.265] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  14:14:20.328] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  14:16:04.556] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:16:04.900] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:16:05.563] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lzupi BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:16:05.654] : 点击：用户登录 BasePage.py -> click line:120 
+[INFO] [2025-03-23  14:16:06.299] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：1myk BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:16:06.343] : 点击：用户登录 BasePage.py -> click line:120 
+[INFO] [2025-03-23  14:16:07.933] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  14:16:08.272] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  14:16:08.941] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  14:17:07.723] : 购物车总金额为：861 ShopCar.py -> sum_money line:87 
+[INFO] [2025-03-23  14:17:21.367] : 计算金额为：861,页面金额为：861 test_login.py -> test_shop_004 line:59 
+[INFO] [2025-03-23  14:20:48.499] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:20:48.819] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:20:49.555] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：nm37 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:20:49.635] : 点击：用户登录 BasePage.py -> click line:120 
+[INFO] [2025-03-23  14:20:50.902] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  14:20:51.195] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  14:20:51.893] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  14:21:03.891] : 购物车总金额为：924 ShopCar.py -> sum_money line:87 
+[INFO] [2025-03-23  14:21:06.396] : 计算金额为：924,页面金额为：924 test_login.py -> test_shop_004 line:59 
+[INFO] [2025-03-23  14:24:24.430] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:24:24.736] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:24:25.450] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lq0w8 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:24:25.493] : 点击：用户登录 BasePage.py -> click line:120 
+[INFO] [2025-03-23  14:24:26.087] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：kg8b BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:24:26.131] : 点击：用户登录 BasePage.py -> click line:120 
+[INFO] [2025-03-23  14:24:27.514] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  14:24:28.017] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  14:24:28.790] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  14:24:29.062] : 购物车总金额为：924 ShopCar.py -> sum_money line:87 
+[INFO] [2025-03-23  14:24:29.090] : 计算金额为：924,页面金额为：924 test_login.py -> test_shop_004 line:59 
+[INFO] [2025-03-23  14:28:43.091] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:28:43.434] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:28:44.261] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lxxlb BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:28:44.357] : 点击：用户登录 BasePage.py -> click line:120 
+[INFO] [2025-03-23  14:28:44.954] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：47fr BasePage.py -> send_keys line:55 
+[INFO] [2025-03-23  14:28:44.998] : 点击：用户登录 BasePage.py -> click line:120 
+[INFO] [2025-03-23  14:28:46.201] : 滚动到第一个商品可见 test_login.py -> test_shop_004 line:50 
+[INFO] [2025-03-23  14:28:46.554] : 点击第一个商品 test_login.py -> test_shop_004 line:52 
+[INFO] [2025-03-23  14:28:47.221] : 点击加入购物车 test_login.py -> test_shop_004 line:55 
+[INFO] [2025-03-23  14:28:47.631] : 购物车总金额为：924 ShopCar.py -> sum_money line:87 
+[INFO] [2025-03-23  14:28:47.664] : 计算金额为：924,页面金额为：924 test_login.py -> test_shop_004 line:59 

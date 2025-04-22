@@ -1,0 +1,4 @@
+DEBUG    log_name:conftest.py:20 创建driver对象
+DEBUG    log_name:conftest.py:22 打开浏览器
+INFO     log_name:conftest.py:34 跳过登录逻辑
+DEBUG    log_name:conftest.py:25 关闭浏览器

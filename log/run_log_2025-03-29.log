@@ -1,0 +1,97 @@
+[INFO] [2025-03-29  12:22:28.075] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[ERROR] [2025-03-29  12:22:42.845] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7EF73FE15+26629]
+	(No symbol) [0x00007FF7EF6A5FE0]
+	(No symbol) [0x00007FF7EF53931A]
+	(No symbol) [0x00007FF7EF58F8E7]
+	(No symbol) [0x00007FF7EF58FB1C]
+	(No symbol) [0x00007FF7EF5E34A7]
+	(No symbol) [0x00007FF7EF5B7AEF]
+	(No symbol) [0x00007FF7EF5E0169]
+	(No symbol) [0x00007FF7EF5B7883]
+	(No symbol) [0x00007FF7EF580550]
+	(No symbol) [0x00007FF7EF581803]
+	GetHandleVerifier [0x00007FF7EFA9728D+3529853]
+	GetHandleVerifier [0x00007FF7EFAAD9F2+3621858]
+	GetHandleVerifier [0x00007FF7EFAA24A3+3575443]
+	GetHandleVerifier [0x00007FF7EF80B74A+860474]
+	(No symbol) [0x00007FF7EF6B085F]
+	(No symbol) [0x00007FF7EF6ACB94]
+	(No symbol) [0x00007FF7EF6ACD36]
+	(No symbol) [0x00007FF7EF69C299]
+	BaseThreadInitThunk [0x00007FFF931BE8D7+23]
+	RtlUserThreadStart [0x00007FFF9455BF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-29  12:22:42.870] : Element 不存在 after 1 attempts: ('xpath', '/html/body/div[3]/div/div/a/dl/dd[1]') BasePage.py -> find_element line:89 
+[INFO] [2025-03-29  12:31:03.939] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[ERROR] [2025-03-29  12:31:18.175] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7EF73FE15+26629]
+	(No symbol) [0x00007FF7EF6A5FE0]
+	(No symbol) [0x00007FF7EF53931A]
+	(No symbol) [0x00007FF7EF58F8E7]
+	(No symbol) [0x00007FF7EF58FB1C]
+	(No symbol) [0x00007FF7EF5E34A7]
+	(No symbol) [0x00007FF7EF5B7AEF]
+	(No symbol) [0x00007FF7EF5E0169]
+	(No symbol) [0x00007FF7EF5B7883]
+	(No symbol) [0x00007FF7EF580550]
+	(No symbol) [0x00007FF7EF581803]
+	GetHandleVerifier [0x00007FF7EFA9728D+3529853]
+	GetHandleVerifier [0x00007FF7EFAAD9F2+3621858]
+	GetHandleVerifier [0x00007FF7EFAA24A3+3575443]
+	GetHandleVerifier [0x00007FF7EF80B74A+860474]
+	(No symbol) [0x00007FF7EF6B085F]
+	(No symbol) [0x00007FF7EF6ACB94]
+	(No symbol) [0x00007FF7EF6ACD36]
+	(No symbol) [0x00007FF7EF69C299]
+	BaseThreadInitThunk [0x00007FFF931BE8D7+23]
+	RtlUserThreadStart [0x00007FFF9455BF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-29  12:31:18.177] : Element 不存在 after 1 attempts: ('xpath', '/html/body/div[3]/div/div/a/dl/dd[1]') BasePage.py -> find_element line:89 
+[INFO] [2025-03-29  12:41:41.009] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[ERROR] [2025-03-29  12:42:04.976] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7EF73FE15+26629]
+	(No symbol) [0x00007FF7EF6A5FE0]
+	(No symbol) [0x00007FF7EF53931A]
+	(No symbol) [0x00007FF7EF58F8E7]
+	(No symbol) [0x00007FF7EF58FB1C]
+	(No symbol) [0x00007FF7EF5E34A7]
+	(No symbol) [0x00007FF7EF5B7AEF]
+	(No symbol) [0x00007FF7EF5E0169]
+	(No symbol) [0x00007FF7EF5B7883]
+	(No symbol) [0x00007FF7EF580550]
+	(No symbol) [0x00007FF7EF581803]
+	GetHandleVerifier [0x00007FF7EFA9728D+3529853]
+	GetHandleVerifier [0x00007FF7EFAAD9F2+3621858]
+	GetHandleVerifier [0x00007FF7EFAA24A3+3575443]
+	GetHandleVerifier [0x00007FF7EF80B74A+860474]
+	(No symbol) [0x00007FF7EF6B085F]
+	(No symbol) [0x00007FF7EF6ACB94]
+	(No symbol) [0x00007FF7EF6ACD36]
+	(No symbol) [0x00007FF7EF69C299]
+	BaseThreadInitThunk [0x00007FFF931BE8D7+23]
+	RtlUserThreadStart [0x00007FFF9455BF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-29  12:42:04.976] : Element 不存在 after 1 attempts: ('xpath', '/html/body/div[3]/div/div/a/dl/dd[1]') BasePage.py -> find_element line:89 
+[INFO] [2025-03-29  12:55:12.435] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-29  12:55:16.503] : 搜索：哈哈, in 结果：None test_home_usercenter.py -> test_shop_017_skip_login line:29 
+[INFO] [2025-03-29  13:25:13.301] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-29  13:52:50.464] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-29  13:56:59.107] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-29  13:58:00.905] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-29  13:58:05.293] : 搜索：花, in 结果：['蝴', '蝶', '兰', '仿', '真', '花', '欧', '式', '花', '瓶', '干', '花', '花', '瓶', '长', '寿', '花'] test_home_usercenter.py -> test_shop_016_skip_login line:19 
+[INFO] [2025-03-29  13:59:56.906] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-29  14:00:01.294] : 搜索：花, in 结果：['蝴', '蝶', '兰', '仿', '真', '花', '欧', '式', '花', '瓶', '干', '花', '花', '瓶', '长', '寿', '花'] test_home_usercenter.py -> test_shop_016_skip_login line:19 
+[INFO] [2025-03-29  14:01:23.532] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-29  14:03:20.011] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-29  14:03:24.509] : 搜索：花, in 结果：['蝴蝶兰仿真花', '欧式花瓶', '干花花瓶', '长寿花'] test_home_usercenter.py -> test_shop_016_skip_login line:19 
+[INFO] [2025-03-29  14:04:11.420] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-29  14:04:15.788] : 搜索：花, in 结果：['蝴蝶兰仿真花', '欧式花瓶', '干花花瓶', '长寿花'] test_home_usercenter.py -> test_shop_016_skip_login line:19 
+[INFO] [2025-03-29  14:10:14.163] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-29  14:17:35.816] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-29  14:17:42.995] : 空搜索, in 结果：['可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型'] test_home_usercenter.py -> test_shop_018_skip_login line:38 
+[INFO] [2025-03-29  14:19:02.859] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-29  14:19:09.706] : 空搜索,数量：20,结果：['可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型'] test_home_usercenter.py -> test_shop_018_skip_login line:38 

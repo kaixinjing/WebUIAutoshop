@@ -1,0 +1,36 @@
+[INFO] [2025-04-12  11:23:56.473] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-12  11:23:56.844] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-12  11:23:58.404] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：gpq6 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-12  11:23:58.514] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-12  11:24:02.123] : 登录成功 conftest.py -> login_and_quit line:34 
+[INFO] [2025-04-12  11:24:02.126] : test report:<TestReport 'test_home_usercenter.py::TestHomeUserCenter::test_shop_023' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:45 
+[INFO] [2025-04-12  11:24:02.126] : execution time-consuming:26.41 second conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-12  11:24:05.623] : test report:<TestReport 'test_home_usercenter.py::TestHomeUserCenter::test_shop_023' when='call' outcome='failed'> conftest.py -> pytest_runtest_makereport line:45 
+[INFO] [2025-04-12  11:24:05.625] : execution time-consuming:2.89 second conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-12  11:24:05.625] : error.screenshot. conftest.py -> pytest_runtest_makereport line:49 
+[ERROR] [2025-04-12  11:24:05.625] : 'function' object has no attribute 'allure_save_screenshot' conftest.py -> pytest_runtest_makereport line:52 
+[INFO] [2025-04-12  11:24:09.011] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-12  11:24:09.011] : 退出登录 conftest.py -> login_and_quit line:37 
+[INFO] [2025-04-12  11:24:11.454] : test report:<TestReport 'test_home_usercenter.py::TestHomeUserCenter::test_shop_023' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:45 
+[INFO] [2025-04-12  11:24:11.455] : execution time-consuming:5.8 second conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-12  11:40:31.238] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-12  11:40:31.523] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-12  11:40:32.226] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：mzth BasePage.py -> send_keys line:62 
+[INFO] [2025-04-12  11:40:32.292] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-12  11:40:37.823] : 登录成功 conftest.py -> login_and_quit line:36 
+[INFO] [2025-04-12  11:40:44.258] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-12  11:40:44.258] : 退出登录 conftest.py -> login_and_quit line:39 
+[INFO] [2025-04-12  11:45:08.361] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-12  11:45:08.724] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-12  11:45:09.363] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：b8r6 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-12  11:45:09.426] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-12  11:45:14.802] : 登录成功 conftest.py -> login_and_quit line:36 
+[INFO] [2025-04-12  11:45:21.228] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-12  11:45:21.229] : 退出登录 conftest.py -> login_and_quit line:39 
+[INFO] [2025-04-12  11:46:59.579] : 跳过登录逻辑 conftest.py -> login_and_quit line:32 
+[INFO] [2025-04-12  11:51:24.339] : 跳过登录逻辑 conftest.py -> login_and_quit line:32 
+[INFO] [2025-04-12  12:16:40.483] : 跳过登录逻辑 conftest.py -> login_and_quit line:32 
+[INFO] [2025-04-12  12:20:25.314] : 跳过登录逻辑 conftest.py -> login_and_quit line:32 
+[INFO] [2025-04-12  12:27:55.769] : 跳过登录逻辑 conftest.py -> login_and_quit line:32 
+[INFO] [2025-04-12  12:29:49.722] : 跳过登录逻辑 conftest.py -> login_and_quit line:32 
+[INFO] [2025-04-12  12:37:57.677] : 跳过登录逻辑 conftest.py -> login_and_quit line:32 

@@ -1,0 +1,4 @@
+[INFO] [2025-04-14  20:07:09.449] : 跳过登录逻辑 conftest.py -> login_and_quit line:34 
+[ERROR] [2025-04-14  20:07:13.072] : Error taking screenshot: 'HomePage' object has no attribute 'save_screenshot' conftest.py -> pytest_runtest_makereport line:81 
+[INFO] [2025-04-14  20:17:41.667] : 跳过登录逻辑 conftest.py -> login_and_quit line:34 
+[INFO] [2025-04-14  20:17:46.224] : 网页截图 BasePage.py -> allure_save_screenshot line:186 

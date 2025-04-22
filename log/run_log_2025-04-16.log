@@ -1,0 +1,67 @@
+[INFO] [2025-04-16  20:02:14.325] : 使用data.yaml数据驱动 conftest.py -> get_yaml_data line:36 
+[INFO] [2025-04-16  20:02:23.170] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:02:23.562] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:02:25.038] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hwh1 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:02:25.156] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-16  20:02:29.313] : 登录成功 conftest.py -> login_and_quit line:64 
+[INFO] [2025-04-16  20:02:33.445] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-16  20:02:33.445] : 退出登录 conftest.py -> login_and_quit line:67 
+[INFO] [2025-04-16  20:03:59.113] : 使用data.yaml数据驱动 conftest.py -> get_yaml_data line:36 
+[INFO] [2025-04-16  20:03:59.538] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:03:59.846] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:04:00.603] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L2q3o BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:04:00.647] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-16  20:04:01.237] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：w69z BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:04:01.278] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-16  20:04:08.203] : 登录成功 conftest.py -> login_and_quit line:64 
+[INFO] [2025-04-16  20:04:12.106] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-16  20:04:12.106] : 退出登录 conftest.py -> login_and_quit line:67 
+[INFO] [2025-04-16  20:09:44.053] : 使用data.yaml数据驱动 conftest.py -> get_yaml_data line:36 
+[INFO] [2025-04-16  20:09:44.483] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:09:44.819] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:09:45.592] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：E1n2y BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:09:45.639] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-16  20:09:46.279] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：601v BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:09:46.320] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-16  20:09:53.058] : 登录成功 conftest.py -> login_and_quit line:64 
+[INFO] [2025-04-16  20:09:59.306] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-16  20:09:59.306] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-16  20:10:02.741] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-16  20:10:02.741] : 退出登录 conftest.py -> login_and_quit line:67 
+[INFO] [2025-04-16  20:11:43.141] : 使用data.yaml数据驱动 conftest.py -> get_yaml_data line:36 
+[INFO] [2025-04-16  20:11:43.522] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:11:43.821] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:11:44.491] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：ihgq BasePage.py -> send_keys line:62 
+[INFO] [2025-04-16  20:11:44.531] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-16  20:11:51.191] : 登录成功 conftest.py -> login_and_quit line:64 
+[ERROR] [2025-04-16  20:12:08.059] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF7B407FE15+26629]
+	(No symbol) [0x00007FF7B3FE5FE0]
+	(No symbol) [0x00007FF7B3E7931A]
+	(No symbol) [0x00007FF7B3ECF8E7]
+	(No symbol) [0x00007FF7B3ECFB1C]
+	(No symbol) [0x00007FF7B3F234A7]
+	(No symbol) [0x00007FF7B3EF7AEF]
+	(No symbol) [0x00007FF7B3F20169]
+	(No symbol) [0x00007FF7B3EF7883]
+	(No symbol) [0x00007FF7B3EC0550]
+	(No symbol) [0x00007FF7B3EC1803]
+	GetHandleVerifier [0x00007FF7B43D728D+3529853]
+	GetHandleVerifier [0x00007FF7B43ED9F2+3621858]
+	GetHandleVerifier [0x00007FF7B43E24A3+3575443]
+	GetHandleVerifier [0x00007FF7B414B74A+860474]
+	(No symbol) [0x00007FF7B3FF085F]
+	(No symbol) [0x00007FF7B3FECB94]
+	(No symbol) [0x00007FF7B3FECD36]
+	(No symbol) [0x00007FF7B3FDC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-16  20:12:08.059] : Element 不存在 after 1 attempts: ('xpath', "//a[@id='login']") BasePage.py -> find_element line:98 
+[INFO] [2025-04-16  20:12:10.895] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-16  20:12:10.895] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-16  20:12:14.594] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-16  20:12:14.594] : 退出登录 conftest.py -> login_and_quit line:67 
+[INFO] [2025-04-16  20:13:10.777] : 使用data.yaml数据驱动 conftest.py -> get_yaml_data line:36 
+[INFO] [2025-04-16  20:13:10.780] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 

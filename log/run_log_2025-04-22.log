@@ -1,0 +1,923 @@
+[INFO] [2025-04-22  20:00:07.282] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:00:07.282] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:07.287] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:07.287] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:07.287] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:07.296] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:07.296] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:00:08.329] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:00:08.684] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:00:09.969] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：n6yc BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:00:10.031] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:00:12.283] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:00:13.182] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:00:13.987] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-22  20:00:14.045] : 收货地址为： test_car_order.py -> test_shop_012 line:124 
+[INFO] [2025-04-22  20:00:16.821] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:00:16.821] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:00:16.843] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:00:16.845] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:16.852] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:16.856] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:16.862] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:16.867] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:16.874] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:00:17.422] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:00:17.845] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:00:18.952] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：2039 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:00:19.050] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:00:19.230] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:00:21.896] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:00:23.108] : 进入商品详情页 Event.py -> event_good_details2 line:56 
+[INFO] [2025-04-22  20:00:23.719] : 点击选择所有商品 ShopCar.py -> click_check_all line:38 
+[INFO] [2025-04-22  20:00:23.845] : 点击：结算 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:00:23.847] : 点击结算按钮 ShopCar.py -> click_buy line:62 
+[INFO] [2025-04-22  20:00:28.395] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:00:28.631] : 订单状态：已支付,订单金额：53,个人中心金额：53
+订单页面商品：['可爱叮当猫抱枕', 1, 30, '简约棉麻抱枕', 1, 23]
+个人中心商品：['可爱叮当猫抱枕', 1, 30, '简约棉麻抱枕', 1, 23] test_car_order.py -> test_shop_014 line:170 
+[INFO] [2025-04-22  20:00:30.535] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:00:30.535] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:00:30.551] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:00:30.552] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:30.558] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:30.561] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:30.565] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:30.570] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:00:30.574] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:00:31.105] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:00:31.452] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:00:32.134] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：8g8b BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:00:32.231] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:00:34.810] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:00:35.196] : 结算按钮是否可点：False test_car_order.py -> test_shop_015 line:182 
+[INFO] [2025-04-22  20:00:37.554] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:00:37.554] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:01:18.664] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:01:18.665] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:18.667] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:18.668] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:18.669] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:18.674] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:18.678] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:01:19.046] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:19.330] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:20.055] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：5pjq BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:20.103] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:01:22.288] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:01:22.333] : 滚动到第一个商品可见 test_car_order.py -> test_shop_005 line:24 
+[INFO] [2025-04-22  20:01:22.864] : 点击第一个商品 test_car_order.py -> test_shop_005 line:26 
+[INFO] [2025-04-22  20:01:23.340] : 点击加入购物车 test_car_order.py -> test_shop_005 line:29 
+[INFO] [2025-04-22  20:01:26.096] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:01:26.096] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:01:26.096] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:01:26.789] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[ERROR] [2025-04-22  20:01:26.791] : 获取alert值失败：Message: no such alert
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6B944FE15+26629]
+	(No symbol) [0x00007FF6B93B5FE0]
+	(No symbol) [0x00007FF6B924914C]
+	(No symbol) [0x00007FF6B92387D4]
+	(No symbol) [0x00007FF6B925FC01]
+	(No symbol) [0x00007FF6B92708B7]
+	(No symbol) [0x00007FF6B92C7B5D]
+	(No symbol) [0x00007FF6B9270735]
+	(No symbol) [0x00007FF6B92C7883]
+	(No symbol) [0x00007FF6B9290550]
+	(No symbol) [0x00007FF6B9291803]
+	GetHandleVerifier [0x00007FF6B97A728D+3529853]
+	GetHandleVerifier [0x00007FF6B97BD9F2+3621858]
+	GetHandleVerifier [0x00007FF6B97B24A3+3575443]
+	GetHandleVerifier [0x00007FF6B951B74A+860474]
+	(No symbol) [0x00007FF6B93C085F]
+	(No symbol) [0x00007FF6B93BCB94]
+	(No symbol) [0x00007FF6B93BCD36]
+	(No symbol) [0x00007FF6B93AC299]
+	BaseThreadInitThunk [0x00007FFC8546E8D7+23]
+	RtlUserThreadStart [0x00007FFC86D914FC+44]
+ BasePage.py -> find_alert_text line:74 
+[ERROR] [2025-04-22  20:01:28.104] : 截图异常：Alert Text: 你还未登录!
+Message: unexpected alert open: {Alert text : 你还未登录!}
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6B944FE15+26629]
+	(No symbol) [0x00007FF6B93B5FE0]
+	(No symbol) [0x00007FF6B924931A]
+	(No symbol) [0x00007FF6B92F0E24]
+	(No symbol) [0x00007FF6B92C7883]
+	(No symbol) [0x00007FF6B9290550]
+	(No symbol) [0x00007FF6B9291803]
+	GetHandleVerifier [0x00007FF6B97A728D+3529853]
+	GetHandleVerifier [0x00007FF6B97BD9F2+3621858]
+	GetHandleVerifier [0x00007FF6B97B24A3+3575443]
+	GetHandleVerifier [0x00007FF6B951B74A+860474]
+	(No symbol) [0x00007FF6B93C085F]
+	(No symbol) [0x00007FF6B93BCB94]
+	(No symbol) [0x00007FF6B93BCD36]
+	(No symbol) [0x00007FF6B93AC299]
+	BaseThreadInitThunk [0x00007FFC8546E8D7+23]
+	RtlUserThreadStart [0x00007FFC86D914FC+44]
+ BasePage.py -> chrome_save_screenshot line:181 
+[ERROR] [2025-04-22  20:01:28.106] : allure截图钩子函数报错: Alert Text: 你还未登录!
+Message: unexpected alert open: {Alert text : 你还未登录!}
+  (Session info: chrome=134.0.6998.89)
+Stacktrace:
+	GetHandleVerifier [0x00007FF6B944FE15+26629]
+	(No symbol) [0x00007FF6B93B5FE0]
+	(No symbol) [0x00007FF6B924931A]
+	(No symbol) [0x00007FF6B92F0E24]
+	(No symbol) [0x00007FF6B92C7883]
+	(No symbol) [0x00007FF6B9290550]
+	(No symbol) [0x00007FF6B9291803]
+	GetHandleVerifier [0x00007FF6B97A728D+3529853]
+	GetHandleVerifier [0x00007FF6B97BD9F2+3621858]
+	GetHandleVerifier [0x00007FF6B97B24A3+3575443]
+	GetHandleVerifier [0x00007FF6B951B74A+860474]
+	(No symbol) [0x00007FF6B93C085F]
+	(No symbol) [0x00007FF6B93BCB94]
+	(No symbol) [0x00007FF6B93BCD36]
+	(No symbol) [0x00007FF6B93AC299]
+	BaseThreadInitThunk [0x00007FFC8546E8D7+23]
+	RtlUserThreadStart [0x00007FFC86D914FC+44]
+ conftest.py -> pytest_runtest_makereport line:92 
+[INFO] [2025-04-22  20:01:28.123] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:01:28.124] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:28.126] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:28.132] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:28.135] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:28.138] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:28.144] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:01:28.579] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:28.882] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:29.495] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Ixc6 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:29.570] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:01:30.315] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：je46 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:30.405] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:01:32.864] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:01:33.932] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:01:34.060] : 点击选择所有商品 ShopCar.py -> click_check_all line:38 
+[INFO] [2025-04-22  20:01:34.131] : 购物车总金额为：30 ShopCar.py -> sum_money line:108 
+[INFO] [2025-04-22  20:01:34.175] : 计算金额为：30,页面金额为：30 test_car_order.py -> test_shop_007 line:52 
+[INFO] [2025-04-22  20:01:36.540] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:01:36.540] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:01:36.563] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:01:36.564] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:36.566] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:36.572] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:36.574] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:36.579] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:36.581] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:01:37.010] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:37.353] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:38.045] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lwpoe BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:38.112] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:01:38.865] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lcs4t BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:38.936] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:01:39.592] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lv8yc BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:39.664] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:01:40.313] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L6d8c BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:40.391] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:01:41.087] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：x4ua BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:01:41.167] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:01:43.764] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:01:44.756] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:01:44.968] : 点击：删除 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:01:44.968] : 点击商品删除 ShopCar.py -> click_delete line:53 
+[ERROR] [2025-04-22  20:01:55.500] : 尝试 1 次后失败异常为: Message: 
+ BasePage.py -> find_elements line:110 
+[ERROR] [2025-04-22  20:01:55.500] : Element 不存在 after 1 attempts: ('class name', 'th') BasePage.py -> find_elements line:114 
+[INFO] [2025-04-22  20:01:56.899] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-22  20:01:56.899] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-22  20:01:59.379] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:01:59.379] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:01:59.396] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:01:59.396] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:59.396] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:59.396] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:59.396] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:59.411] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:01:59.415] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:01:59.882] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:00.169] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:00.764] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：8e8s BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:00.859] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:03.171] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:02:04.207] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:02:04.391] : 点击商品+ ShopCar.py -> click_quantity_up line:43 
+[INFO] [2025-04-22  20:02:04.413] : 点击前数量：1,点击后数量：2 test_car_order.py -> test_shop_009 line:78 
+[INFO] [2025-04-22  20:02:06.983] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:06.984] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:02:06.988] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:02:06.988] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:06.990] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:06.993] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:06.995] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:06.996] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:06.996] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:02:07.437] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:07.791] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:08.485] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lx8iy BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:08.554] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:09.247] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：5cIb BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:09.331] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:09.984] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：utth BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:10.072] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:12.328] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:02:13.340] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:02:14.518] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:02:14.641] : 点击商品- ShopCar.py -> click_quantity_down line:48 
+[INFO] [2025-04-22  20:02:14.669] : 点击前数量：2,点击后数量：1 test_car_order.py -> test_shop_010 line:93 
+[INFO] [2025-04-22  20:02:16.905] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:16.905] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:02:16.922] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:02:16.922] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:16.924] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:16.930] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:16.933] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:16.938] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:16.944] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:02:17.380] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:17.784] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:18.448] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：i37f BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:18.509] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:18.655] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:02:21.548] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:02:22.139] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-22  20:02:22.164] : 收货地址为： test_car_order.py -> test_shop_011 line:104 
+[INFO] [2025-04-22  20:02:25.289] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:25.454] : 订单状态：已支付,订单金额：30,个人中心金额：30
+订单页面商品：['可爱叮当猫抱枕', 1, 30]
+个人中心商品：['可爱叮当猫抱枕', 1, 30] test_car_order.py -> test_shop_011 line:112 
+[INFO] [2025-04-22  20:02:28.016] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:28.016] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:02:28.031] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:02:28.032] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:28.037] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:28.039] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:28.044] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:28.048] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:28.051] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:02:28.645] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:29.061] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:29.813] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：ptrm BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:29.911] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:30.042] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:02:32.881] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:02:33.442] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-22  20:02:33.460] : 收货地址为： test_car_order.py -> test_shop_012 line:124 
+[INFO] [2025-04-22  20:02:36.284] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:36.284] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:02:36.299] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:02:36.300] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:36.308] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:36.311] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:36.319] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:36.326] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:36.332] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:02:36.780] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:37.121] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:37.729] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：o78e BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:37.801] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:40.112] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:02:40.836] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:02:41.264] : 点击选择所有商品 ShopCar.py -> click_check_all line:38 
+[INFO] [2025-04-22  20:02:41.889] : 点击：结算 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:41.889] : 点击结算按钮 ShopCar.py -> click_buy line:62 
+[INFO] [2025-04-22  20:02:44.964] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:45.070] : 订单状态：已支付,订单金额：30,个人中心金额：30
+订单页面商品：['可爱叮当猫抱枕', 1, 30]
+个人中心商品：['可爱叮当猫抱枕', 1, 30] test_car_order.py -> test_shop_013 line:146 
+[INFO] [2025-04-22  20:02:47.724] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:47.727] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:02:47.746] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:02:47.746] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:47.746] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:47.746] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:47.763] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:47.768] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:02:47.779] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:02:48.245] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:48.549] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:49.185] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：jz2t BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:02:49.267] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:51.658] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:02:52.364] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:02:53.570] : 进入商品详情页 Event.py -> event_good_details2 line:56 
+[INFO] [2025-04-22  20:02:54.252] : 点击选择所有商品 ShopCar.py -> click_check_all line:38 
+[INFO] [2025-04-22  20:02:55.259] : 点击：结算 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:55.259] : 点击结算按钮 ShopCar.py -> click_buy line:62 
+[INFO] [2025-04-22  20:02:58.083] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:02:58.242] : 订单状态：已支付,订单金额：53,个人中心金额：53
+订单页面商品：['可爱叮当猫抱枕', 1, 30, '简约棉麻抱枕', 1, 23]
+个人中心商品：['可爱叮当猫抱枕', 1, 30, '简约棉麻抱枕', 1, 23] test_car_order.py -> test_shop_014 line:170 
+[INFO] [2025-04-22  20:03:00.622] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:03:00.622] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:03:00.643] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:03:00.643] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:03:00.649] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:03:00.651] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:03:00.656] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:03:00.659] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:03:00.659] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:03:01.097] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:03:01.462] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:03:02.166] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：be6n BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:03:02.301] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:03:04.347] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:03:04.714] : 结算按钮是否可点：False test_car_order.py -> test_shop_015 line:182 
+[INFO] [2025-04-22  20:03:07.334] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:03:07.334] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:05:24.093] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:05:24.868] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:05:24.871] : 你还未登录! BasePage.py -> find_alert_text line:70 
+[INFO] [2025-04-22  20:05:24.901] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:05:24.902] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:05:24.904] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:05:24.904] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:05:24.907] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:05:24.913] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:05:24.916] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:05:25.314] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:05:25.614] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:05:26.550] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lswrv BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:05:26.651] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:05:27.400] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：La2te BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:05:27.547] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:05:28.448] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：3ydI BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:05:28.610] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:05:29.415] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：8o6a BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:05:29.533] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:05:32.218] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:05:33.425] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:05:33.847] : 点击：删除 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:05:33.847] : 点击商品删除 ShopCar.py -> click_delete line:53 
+[ERROR] [2025-04-22  20:05:44.380] : 尝试 1 次后失败异常为: Message: 
+ BasePage.py -> find_elements line:110 
+[ERROR] [2025-04-22  20:05:44.380] : Element 不存在 after 1 attempts: ('class name', 'th') BasePage.py -> find_elements line:114 
+[INFO] [2025-04-22  20:05:46.023] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-22  20:05:46.023] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-22  20:05:49.014] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:05:49.014] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:07:14.178] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:07:14.767] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:07:14.987] : 你还未登录! BasePage.py -> find_alert_text line:70 
+[INFO] [2025-04-22  20:07:15.011] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:07:15.012] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:07:15.014] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:07:15.016] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:07:15.019] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:07:15.025] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:07:15.027] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:07:15.395] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:07:15.686] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:07:16.430] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4sms BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:07:16.510] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:07:18.891] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:07:19.819] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:08:18.324] : 点击：删除 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:08:18.328] : 点击商品删除 ShopCar.py -> click_delete line:53 
+[ERROR] [2025-04-22  20:08:44.791] : 尝试 1 次后失败异常为: Message: 
+ BasePage.py -> find_elements line:110 
+[ERROR] [2025-04-22  20:08:44.791] : Element 不存在 after 1 attempts: ('class name', 'th') BasePage.py -> find_elements line:114 
+[INFO] [2025-04-22  20:15:08.847] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:15:09.551] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:15:09.758] : 你还未登录! BasePage.py -> find_alert_text line:70 
+[INFO] [2025-04-22  20:15:09.790] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:15:09.793] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:15:09.796] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:15:09.799] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:15:09.800] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:15:09.807] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:15:09.813] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:15:10.167] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:15:10.498] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:15:11.337] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：istc BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:15:11.424] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:15:11.557] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:15:14.572] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:15:21.856] : 点击：删除 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:15:21.857] : 点击商品删除 ShopCar.py -> click_delete line:53 
+[ERROR] [2025-04-22  20:15:35.553] : 尝试 1 次后失败异常为: Message: 
+ BasePage.py -> find_elements line:110 
+[ERROR] [2025-04-22  20:15:35.553] : Element 不存在 after 1 attempts: ('class name', 'th') BasePage.py -> find_elements line:114 
+[INFO] [2025-04-22  20:16:04.904] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-22  20:16:04.916] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-22  20:16:07.255] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:16:07.256] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:18:31.537] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:18:31.537] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:18:31.537] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:18:31.537] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:18:31.537] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:18:31.548] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:18:31.553] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:18:31.908] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:18:32.191] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:18:32.988] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：pmom BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:18:33.036] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:18:35.236] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:18:36.119] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:18:36.373] : 点击：删除 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:18:36.373] : 点击商品删除 ShopCar.py -> click_delete line:53 
+[ERROR] [2025-04-22  20:18:46.918] : 尝试 1 次后失败异常为: Message: 
+ BasePage.py -> find_elements line:110 
+[ERROR] [2025-04-22  20:18:46.918] : Element 不存在 after 1 attempts: ('class name', 'th') BasePage.py -> find_elements line:114 
+[INFO] [2025-04-22  20:18:48.527] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-22  20:18:48.527] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-22  20:18:51.106] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:18:51.107] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:30:41.200] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:30:41.202] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:30:41.205] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:30:41.207] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:30:41.209] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:30:41.214] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:30:41.219] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:30:41.623] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:30:41.936] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:30:42.692] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L3bw0 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:30:42.760] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:30:43.340] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L2vIs BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:30:43.380] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:30:43.971] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Ls27a BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:30:44.059] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:30:45.121] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Ikfv BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:30:45.205] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:30:46.257] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lccrz BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:30:46.354] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:30:47.477] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lva3u BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:30:47.569] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:30:48.934] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：E2f8w BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:30:49.042] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:30:50.203] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：r1qn BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:30:50.292] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:30:50.481] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:30:53.351] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:30:57.084] : 点击：删除 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:30:57.087] : 点击商品删除 ShopCar.py -> click_delete line:53 
+[ERROR] [2025-04-22  20:31:44.325] : 尝试 1 次后失败异常为: Message: 
+ BasePage.py -> find_elements line:110 
+[ERROR] [2025-04-22  20:31:47.849] : Element 不存在 after 1 attempts: ('class name', 'th') BasePage.py -> find_elements line:114 
+[INFO] [2025-04-22  20:34:22.044] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-22  20:34:22.046] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-22  20:34:24.726] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:34:24.726] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:34:50.108] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:34:50.110] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:34:50.114] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:34:50.116] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:34:50.117] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:34:50.123] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:34:50.129] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:34:50.501] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:34:50.803] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:34:51.634] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：3aI6 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:34:51.682] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:34:52.284] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Ltfw2 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:34:52.323] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:34:53.283] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：vuiu BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:34:53.363] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:34:55.611] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:34:56.351] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:34:59.344] : 点击：删除 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:34:59.344] : 点击商品删除 ShopCar.py -> click_delete line:53 
+[ERROR] [2025-04-22  20:35:13.783] : 尝试 1 次后失败异常为: Message: 
+ BasePage.py -> find_elements line:110 
+[ERROR] [2025-04-22  20:35:13.783] : Element 不存在 after 1 attempts: ('class name', 'th') BasePage.py -> find_elements line:114 
+[INFO] [2025-04-22  20:35:39.724] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:35:39.724] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:37:47.909] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:37:47.912] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:37:47.912] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:37:47.912] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:37:47.912] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:37:47.918] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:37:47.927] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:37:48.297] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:37:48.618] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:37:49.376] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：o4cw BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:37:49.452] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:37:51.747] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:37:51.794] : 滚动到第一个商品可见 test_car_order.py -> test_shop_005 line:24 
+[INFO] [2025-04-22  20:37:52.421] : 点击第一个商品 test_car_order.py -> test_shop_005 line:26 
+[INFO] [2025-04-22  20:37:52.890] : 点击加入购物车 test_car_order.py -> test_shop_005 line:29 
+[INFO] [2025-04-22  20:37:55.714] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:37:55.715] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:37:55.716] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:37:56.557] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:37:56.767] : 你还未登录! BasePage.py -> find_alert_text line:70 
+[INFO] [2025-04-22  20:37:56.794] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:37:56.794] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:37:56.796] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:37:56.800] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:37:56.802] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:37:56.805] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:37:56.809] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:37:57.192] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:37:57.541] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:37:58.248] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：jenv BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:37:58.336] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:37:58.457] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:38:01.589] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:38:01.745] : 点击选择所有商品 ShopCar.py -> click_check_all line:38 
+[INFO] [2025-04-22  20:38:01.869] : 购物车总金额为：30 ShopCar.py -> sum_money line:110 
+[INFO] [2025-04-22  20:38:01.921] : 计算金额为：30,页面金额为：30 test_car_order.py -> test_shop_007 line:53 
+[INFO] [2025-04-22  20:38:04.517] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:04.518] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:38:04.542] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:38:04.544] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:04.546] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:04.557] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:04.561] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:04.571] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:04.577] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:38:05.125] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:05.506] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:06.145] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lxar0 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:06.235] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:06.996] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：msfi BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:07.078] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:09.693] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:38:10.774] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:38:11.012] : 点击：删除 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:11.012] : 点击商品删除 ShopCar.py -> click_delete line:53 
+[ERROR] [2025-04-22  20:38:21.554] : 尝试 1 次后失败异常为: Message: 
+ BasePage.py -> find_elements line:110 
+[ERROR] [2025-04-22  20:38:21.554] : Element 不存在 after 1 attempts: ('class name', 'th') BasePage.py -> find_elements line:114 
+[INFO] [2025-04-22  20:38:24.169] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:24.169] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:38:24.186] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:38:24.186] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:24.537] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:24.542] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:24.548] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:24.559] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:24.569] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:38:25.113] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:25.528] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:26.800] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Iksi BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:26.945] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:28.297] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：87ym BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:28.446] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:31.070] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:38:32.177] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:38:32.451] : 点击商品+ ShopCar.py -> click_quantity_up line:43 
+[INFO] [2025-04-22  20:38:32.496] : 点击前数量：1,点击后数量：2 test_car_order.py -> test_shop_009 line:79 
+[INFO] [2025-04-22  20:38:35.319] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:35.319] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:38:35.343] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:38:35.345] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:35.349] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:35.359] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:35.363] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:35.376] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:35.386] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:38:35.997] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:36.409] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:37.730] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：jhpv BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:37.895] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:40.660] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:38:41.871] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:38:43.096] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-22  20:38:43.312] : 点击商品- ShopCar.py -> click_quantity_down line:48 
+[INFO] [2025-04-22  20:38:43.351] : 点击前数量：2,点击后数量：1 test_car_order.py -> test_shop_010 line:94 
+[INFO] [2025-04-22  20:38:46.032] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:46.032] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:38:46.037] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:38:46.058] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:46.063] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:46.069] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:46.069] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:46.082] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:38:46.095] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:38:46.629] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:47.035] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:48.225] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：LVzzv BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:48.357] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:49.750] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：wmcw BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:38:49.887] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:52.459] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:38:53.328] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:38:54.024] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-22  20:38:54.095] : 收货地址为： test_car_order.py -> test_shop_011 line:105 
+[INFO] [2025-04-22  20:38:57.567] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:38:57.848] : 订单状态：已支付,订单金额：30,个人中心金额：30
+订单页面商品：['可爱叮当猫抱枕', 1, 30]
+个人中心商品：['可爱叮当猫抱枕', 1, 30] test_car_order.py -> test_shop_011 line:113 
+[INFO] [2025-04-22  20:39:00.724] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:00.725] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:39:00.730] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:39:00.739] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:00.744] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:00.747] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:00.754] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:00.760] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:00.767] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:39:01.369] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:01.826] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:03.035] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lvg6v BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:03.173] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:04.537] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：10tg BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:04.686] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:04.899] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:39:08.208] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:39:08.911] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-22  20:39:08.969] : 收货地址为： test_car_order.py -> test_shop_012 line:125 
+[INFO] [2025-04-22  20:39:11.928] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:11.935] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:39:11.949] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:39:11.949] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:11.959] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:11.961] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:11.967] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:11.971] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:11.980] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:39:12.565] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:12.998] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:14.316] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：r2b4 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:14.476] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:17.328] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:39:18.327] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:39:18.998] : 点击选择所有商品 ShopCar.py -> click_check_all line:38 
+[INFO] [2025-04-22  20:39:19.958] : 点击：结算 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:19.964] : 点击结算按钮 ShopCar.py -> click_buy line:62 
+[INFO] [2025-04-22  20:39:23.486] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:23.689] : 订单状态：已支付,订单金额：30,个人中心金额：30
+订单页面商品：['可爱叮当猫抱枕', 1, 30]
+个人中心商品：['可爱叮当猫抱枕', 1, 30] test_car_order.py -> test_shop_013 line:147 
+[INFO] [2025-04-22  20:39:26.382] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:26.384] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:39:26.396] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:39:26.396] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:26.405] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:26.411] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:26.411] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:26.425] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:26.437] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:39:27.014] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:27.427] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:28.646] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：5nI5 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:28.787] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:30.110] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：dpqn BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:30.256] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:33.018] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:39:33.878] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:39:35.320] : 进入商品详情页 Event.py -> event_good_details2 line:56 
+[INFO] [2025-04-22  20:39:36.190] : 点击选择所有商品 ShopCar.py -> click_check_all line:38 
+[INFO] [2025-04-22  20:39:36.348] : 点击：结算 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:36.348] : 点击结算按钮 ShopCar.py -> click_buy line:62 
+[INFO] [2025-04-22  20:39:41.235] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:41.573] : 订单状态：已支付,订单金额：53,个人中心金额：53
+订单页面商品：['可爱叮当猫抱枕', 1, 30, '简约棉麻抱枕', 1, 23]
+个人中心商品：['可爱叮当猫抱枕', 1, 30, '简约棉麻抱枕', 1, 23] test_car_order.py -> test_shop_014 line:171 
+[INFO] [2025-04-22  20:39:44.450] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:44.450] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:39:44.465] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:39:44.465] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:44.470] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:44.484] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:44.489] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:44.499] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:39:44.506] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:39:45.211] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:45.635] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:46.891] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：I07k BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:47.018] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:47.949] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lamdf BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:48.101] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:49.122] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：o5iz BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:39:49.275] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:52.211] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:39:52.696] : 结算按钮是否可点：False test_car_order.py -> test_shop_015 line:183 
+[INFO] [2025-04-22  20:39:55.851] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:39:55.851] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:40:06.138] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:40:07.752] : 搜索：花, in 结果：['蝴蝶兰仿真花', '欧式花瓶', '干花花瓶', '长寿花', '蝴蝶兰仿真花', '欧式花瓶', '干花花瓶', '长寿花'] test_home_usercenter.py -> test_shop_016_skip_login line:30 
+[INFO] [2025-04-22  20:40:07.844] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:40:08.616] : 搜索：哈哈, in 结果：None test_home_usercenter.py -> test_shop_017_skip_login line:40 
+[INFO] [2025-04-22  20:40:08.617] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:40:19.054] : 空搜索,数量：0,结果：[] test_home_usercenter.py -> test_shop_018_skip_login line:49 
+[INFO] [2025-04-22  20:40:21.976] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-22  20:40:21.981] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-22  20:40:22.045] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:40:22.047] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:40:22.049] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:40:22.049] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:40:22.049] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:40:22.064] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:40:22.064] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:40:22.570] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:40:22.958] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:40:23.748] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：8tu4 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:40:23.887] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:40:26.481] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:40:27.389] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:40:28.156] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-22  20:40:28.275] : 跳转到个人中心 test_home_usercenter.py -> test_shop_019 line:58 
+[INFO] [2025-04-22  20:40:31.553] : 进入订单页 test_home_usercenter.py -> test_shop_019 line:61 
+[INFO] [2025-04-22  20:40:31.601] : 当前订单状态为：待支付 test_home_usercenter.py -> test_shop_019 line:63 
+[INFO] [2025-04-22  20:40:35.030] : 操作后订单状态为：已支付 test_home_usercenter.py -> test_shop_019 line:67 
+[INFO] [2025-04-22  20:40:37.847] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:40:37.847] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:40:37.853] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:40:37.854] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:40:37.864] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:40:37.866] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:40:37.872] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:40:37.880] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:40:37.885] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:40:38.414] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:40:38.744] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:40:39.389] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L97II BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:40:39.495] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:40:40.328] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L3tdv BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:40:40.431] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:40:41.296] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：d86c BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:40:41.398] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:40:44.114] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:40:45.086] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:40:45.716] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-22  20:40:49.197] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:40:52.894] : 点击：删除订单 test_home_usercenter.py -> test_shop_020 line:82 
+[ERROR] [2025-04-22  20:41:03.405] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6B944FE15+26629]
+	(No symbol) [0x00007FF6B93B5FE0]
+	(No symbol) [0x00007FF6B924931A]
+	(No symbol) [0x00007FF6B929F8E7]
+	(No symbol) [0x00007FF6B929FB1C]
+	(No symbol) [0x00007FF6B92F34A7]
+	(No symbol) [0x00007FF6B92C7AEF]
+	(No symbol) [0x00007FF6B92F0169]
+	(No symbol) [0x00007FF6B92C7883]
+	(No symbol) [0x00007FF6B9290550]
+	(No symbol) [0x00007FF6B9291803]
+	GetHandleVerifier [0x00007FF6B97A728D+3529853]
+	GetHandleVerifier [0x00007FF6B97BD9F2+3621858]
+	GetHandleVerifier [0x00007FF6B97B24A3+3575443]
+	GetHandleVerifier [0x00007FF6B951B74A+860474]
+	(No symbol) [0x00007FF6B93C085F]
+	(No symbol) [0x00007FF6B93BCB94]
+	(No symbol) [0x00007FF6B93BCD36]
+	(No symbol) [0x00007FF6B93AC299]
+	BaseThreadInitThunk [0x00007FFC8546E8D7+23]
+	RtlUserThreadStart [0x00007FFC86D914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-22  20:41:03.408] : Element 不存在 after 1 attempts: ('xpath', "//li[contains(text(),'订单号:')]") BasePage.py -> find_element line:98 
+[INFO] [2025-04-22  20:41:04.890] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-22  20:41:04.890] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-22  20:41:07.695] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:07.696] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:41:07.704] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:41:07.704] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:41:07.707] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:41:07.710] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:41:07.712] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:41:07.719] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:41:07.724] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:41:08.231] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:08.580] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:09.332] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：fko4 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:09.430] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:09.577] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:41:12.534] : 点击：我的购物车 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:12.584] : shopcar名称为：购物车 test_home_usercenter.py -> test_shop_021 line:93 
+[INFO] [2025-04-22  20:41:15.714] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:15.715] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:41:15.723] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:41:15.726] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:41:15.729] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:41:15.735] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:41:15.741] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:41:15.753] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:41:15.764] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:41:16.386] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:16.771] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:17.471] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：8Ipq BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:17.613] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:18.449] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：ietq BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:18.546] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:21.114] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:41:21.767] : 点击：修改个人信息 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:21.964] : 点击：编辑 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:23.800] : 点击：保存 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:23.841] : 修改用户成功，名称为：admin test_home_usercenter.py -> test_shop_022 line:107 
+[INFO] [2025-04-22  20:41:26.452] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:26.453] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:41:26.455] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:41:32.000] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-22  20:41:32.000] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-22  20:41:37.741] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:41:40.769] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:41.088] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:42.077] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L7jr0 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:42.150] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:43.228] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L0pmt BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:43.323] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:44.419] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4bon BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:44.522] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:49.580] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:49.586] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:41:52.467] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:52.800] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:53.906] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hw5y BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:54.006] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:41:54.194] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:41:56.937] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:57.305] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:41:57.705] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:44:57.202] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:45:00.293] : 空搜索,数量：120,结果：['可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型'] test_home_usercenter.py -> test_shop_018_skip_login line:49 
+[INFO] [2025-04-22  20:46:48.916] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:46:52.856] : 空搜索,数量：120,结果：['可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型'] test_home_usercenter.py -> test_shop_018_skip_login line:49 
+[INFO] [2025-04-22  20:46:52.872] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-22  20:46:53.532] : 搜索：哈哈, in 结果：None test_home_usercenter.py -> test_shop_017_skip_login line:40 
+[INFO] [2025-04-22  20:52:03.341] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:52:03.343] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:52:03.345] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:52:03.348] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:52:03.349] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:52:03.354] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:52:03.358] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:52:03.782] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:52:04.110] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:52:04.894] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：dpu3 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:52:04.939] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:52:07.194] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:52:07.953] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:52:08.058] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-22  20:52:11.404] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:52:15.145] : 点击：删除订单 test_home_usercenter.py -> test_shop_020 line:82 
+[ERROR] [2025-04-22  20:52:25.689] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6B944FE15+26629]
+	(No symbol) [0x00007FF6B93B5FE0]
+	(No symbol) [0x00007FF6B924931A]
+	(No symbol) [0x00007FF6B929F8E7]
+	(No symbol) [0x00007FF6B929FB1C]
+	(No symbol) [0x00007FF6B92F34A7]
+	(No symbol) [0x00007FF6B92C7AEF]
+	(No symbol) [0x00007FF6B92F0169]
+	(No symbol) [0x00007FF6B92C7883]
+	(No symbol) [0x00007FF6B9290550]
+	(No symbol) [0x00007FF6B9291803]
+	GetHandleVerifier [0x00007FF6B97A728D+3529853]
+	GetHandleVerifier [0x00007FF6B97BD9F2+3621858]
+	GetHandleVerifier [0x00007FF6B97B24A3+3575443]
+	GetHandleVerifier [0x00007FF6B951B74A+860474]
+	(No symbol) [0x00007FF6B93C085F]
+	(No symbol) [0x00007FF6B93BCB94]
+	(No symbol) [0x00007FF6B93BCD36]
+	(No symbol) [0x00007FF6B93AC299]
+	BaseThreadInitThunk [0x00007FFC8546E8D7+23]
+	RtlUserThreadStart [0x00007FFC86D914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-22  20:52:25.689] : Element 不存在 after 1 attempts: ('xpath', "//li[contains(text(),'订单号:')]") BasePage.py -> find_element line:98 
+[INFO] [2025-04-22  20:52:27.372] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-22  20:52:27.374] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-22  20:52:30.136] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:52:30.136] : 退出登录 conftest.py -> login_and_quit line:71 
+[INFO] [2025-04-22  20:54:00.497] : 连接数据库：localhost/shop sql.py -> __init__ line:14 
+[INFO] [2025-04-22  20:54:00.498] : sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:54:00.501] : sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:54:00.501] : sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:54:00.501] : sql：DELETE FROM shop_user WHERE user_name = %s sql.py -> execute line:34 
+[INFO] [2025-04-22  20:54:00.501] : sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0) sql.py -> execute line:34 
+[INFO] [2025-04-22  20:54:00.511] : 关闭数据库 sql.py -> __del__ line:24 
+[INFO] [2025-04-22  20:54:00.898] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:54:01.219] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:54:02.062] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：muoa BasePage.py -> send_keys line:62 
+[INFO] [2025-04-22  20:54:02.147] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:54:04.260] : 登录成功 conftest.py -> login_and_quit line:68 
+[INFO] [2025-04-22  20:54:05.014] : 进入商品详情页 Event.py -> event_good_details line:45 
+[INFO] [2025-04-22  20:54:05.553] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-22  20:54:08.455] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:54:12.052] : 点击：删除订单 test_home_usercenter.py -> test_shop_020 line:82 
+[ERROR] [2025-04-22  20:54:22.628] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6B944FE15+26629]
+	(No symbol) [0x00007FF6B93B5FE0]
+	(No symbol) [0x00007FF6B924931A]
+	(No symbol) [0x00007FF6B929F8E7]
+	(No symbol) [0x00007FF6B929FB1C]
+	(No symbol) [0x00007FF6B92F34A7]
+	(No symbol) [0x00007FF6B92C7AEF]
+	(No symbol) [0x00007FF6B92F0169]
+	(No symbol) [0x00007FF6B92C7883]
+	(No symbol) [0x00007FF6B9290550]
+	(No symbol) [0x00007FF6B9291803]
+	GetHandleVerifier [0x00007FF6B97A728D+3529853]
+	GetHandleVerifier [0x00007FF6B97BD9F2+3621858]
+	GetHandleVerifier [0x00007FF6B97B24A3+3575443]
+	GetHandleVerifier [0x00007FF6B951B74A+860474]
+	(No symbol) [0x00007FF6B93C085F]
+	(No symbol) [0x00007FF6B93BCB94]
+	(No symbol) [0x00007FF6B93BCD36]
+	(No symbol) [0x00007FF6B93AC299]
+	BaseThreadInitThunk [0x00007FFC8546E8D7+23]
+	RtlUserThreadStart [0x00007FFC86D914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-22  20:54:22.628] : Element 不存在 after 1 attempts: ('xpath', "//li[contains(text(),'订单号:')]") BasePage.py -> find_element line:98 
+[INFO] [2025-04-22  20:54:25.096] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-22  20:54:25.096] : 退出登录 conftest.py -> login_and_quit line:71 

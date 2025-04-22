@@ -1,0 +1,580 @@
+[INFO] [2025-04-04  11:28:47.179] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  11:28:47.557] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  11:28:48.384] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L722g BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  11:28:48.430] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  11:28:49.434] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：8vmx BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  11:28:49.489] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  11:28:52.882] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  11:28:53.913] : 进入商品详情页 Event.py -> event_good_details line:46 
+[INFO] [2025-04-04  11:28:54.663] : 点击立即购买 GoodsDetails.py -> click_buy_now line:27 
+[INFO] [2025-04-04  11:29:03.849] : 点击：去支付 BasePage.py -> click line:122 
+[INFO] [2025-04-04  11:29:18.621] : 点击删除订单 test_home_usercenter.py -> test_shop_020 line:73 
+[INFO] [2025-04-04  11:29:22.408] : 点击：退出登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  11:29:22.408] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  11:54:18.749] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  11:54:19.093] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  11:54:19.950] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：o8yz BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  11:54:20.093] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  11:54:26.103] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  11:54:26.785] : 点击：我的购物车 BasePage.py -> click line:122 
+[INFO] [2025-04-04  11:54:30.192] : 点击：退出登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  11:54:30.193] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  13:02:05.324] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:02:05.635] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:02:06.398] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：ro7m BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:02:06.468] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:02:12.338] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  13:02:12.726] : 点击：修改个人信息 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:02:12.860] : 点击：编辑 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:02:16.925] : 点击：退出登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:02:16.925] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  13:11:12.167] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:11:12.478] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:11:13.278] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lvnkp BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:11:13.385] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:11:14.614] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L7wfj BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:11:14.718] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:11:15.892] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lz2h0 BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:11:15.986] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:11:17.059] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lv8eo BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:11:17.148] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:11:18.230] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：wuq6 BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:11:18.339] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:11:24.354] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  13:11:24.689] : 点击：修改个人信息 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:11:24.820] : 点击：编辑 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:11:28.711] : 点击：退出登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:11:28.711] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  13:12:14.481] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:12:14.784] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:12:15.639] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：12jj BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:12:15.691] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:12:21.624] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  13:12:21.970] : 点击：修改个人信息 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:12:22.099] : 点击：编辑 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:12:26.036] : 点击：退出登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:12:26.037] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  13:14:23.102] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:14:23.432] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:14:24.293] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L7hd0 BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:14:24.385] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:14:25.359] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L21qk BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:14:25.464] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:14:26.585] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：ruac BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:14:26.684] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:14:29.870] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  13:14:30.222] : 点击：修改个人信息 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:14:30.372] : 点击：编辑 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:15:13.197] : 点击：退出登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:15:13.197] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  13:19:06.043] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:19:06.352] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:19:07.070] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lsbam BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:19:07.123] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:19:07.759] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：j33i BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:19:07.834] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:19:08.443] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lstmm BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:19:08.506] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:19:09.424] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：32ir BasePage.py -> send_keys line:55 
+[INFO] [2025-04-04  13:19:09.524] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:19:12.440] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  13:19:12.827] : 点击：修改个人信息 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:19:12.949] : 点击：编辑 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:19:14.704] : 点击：保存 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:19:14.741] : 修改用户成功，名称为：admin test_home_usercenter.py -> test_shop_022 line:97 
+[INFO] [2025-04-04  13:19:17.679] : 点击：退出登录 BasePage.py -> click line:122 
+[INFO] [2025-04-04  13:19:17.679] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:13:02.069] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:02.362] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:03.638] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：gtuu BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:03.733] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:09.452] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:13:09.461] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_005' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:09.462] : execution time-consuming:15.0 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:13:13.392] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_005' when='call' outcome='failed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:13.392] : execution time-consuming:2.88 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:13:13.392] : error.screenshot. conftest.py -> pytest_runtest_makereport line:45 
+[INFO] [2025-04-04  15:13:13.392] : 创建目录：D:\JetBrains\PythonProject\WebUIAutoshop\log\image_allure BasePage.py -> chrome_save_screenshot line:175 
+[INFO] [2025-04-04  15:13:15.237] : 网页截图 BasePage.py -> allure_save_screenshot line:186 
+[INFO] [2025-04-04  15:13:18.232] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:18.234] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:13:18.242] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_005' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:18.243] : execution time-consuming:2.94 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:13:18.249] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-04-04  15:13:18.251] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_006_skip_login' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:18.252] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:13:19.166] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-04  15:13:19.172] : 你还未登录! BasePage.py -> find_alert_text line:70 
+[INFO] [2025-04-04  15:13:19.246] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_006_skip_login' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:19.246] : execution time-consuming:0.99 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:13:19.258] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_006_skip_login' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:19.271] : execution time-consuming:0.01 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:13:19.691] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:20.050] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:21.146] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入： fxkx BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:21.241] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:22.360] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：ony7 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:22.448] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:28.382] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:13:28.384] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_007' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:28.384] : execution time-consuming:9.1 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:13:29.797] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-04  15:13:29.911] : 点击选择所有商品 ShopCar.py -> click_check_all line:38 
+[INFO] [2025-04-04  15:13:30.091] : 购物车总金额为：58 ShopCar.py -> sum_money line:108 
+[INFO] [2025-04-04  15:13:30.133] : 计算金额为：58,页面金额为：58 test_car_order.py -> test_shop_007 line:40 
+[INFO] [2025-04-04  15:13:30.144] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_007' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:30.146] : execution time-consuming:1.76 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:13:33.221] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:33.221] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:13:33.231] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_007' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:33.232] : execution time-consuming:3.08 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:13:33.674] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:34.021] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:35.072] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lsxiq BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:35.167] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:36.293] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Ly7g7 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:36.388] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:37.528] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lsavp BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:37.622] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:38.779] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lmlse BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:38.869] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:39.966] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：nway BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:40.068] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:46.037] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:13:46.037] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_008' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:46.044] : execution time-consuming:12.8 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:13:47.421] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-04  15:13:47.791] : 点击：删除 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:47.791] : 点击商品删除 ShopCar.py -> click_delete line:53 
+[INFO] [2025-04-04  15:13:47.817] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_008' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:47.818] : execution time-consuming:1.77 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:13:50.913] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:50.914] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:13:50.922] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_008' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:50.923] : execution time-consuming:3.1 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:13:51.348] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:51.711] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:52.744] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L6wtI BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:52.844] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:53.912] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：ragn BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:13:54.011] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:13:59.750] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:13:59.752] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_009' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:13:59.753] : execution time-consuming:8.82 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:14:00.936] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-04  15:14:01.123] : 点击商品+ ShopCar.py -> click_quantity_up line:43 
+[INFO] [2025-04-04  15:14:01.155] : 点击前数量：3,点击后数量：4 test_car_order.py -> test_shop_009 line:60 
+[INFO] [2025-04-04  15:14:01.157] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_009' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:14:01.157] : execution time-consuming:1.4 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:14:04.209] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:04.210] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:14:04.221] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_009' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:14:04.222] : execution time-consuming:3.03 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:14:04.658] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:05.014] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:06.060] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L6h5a BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:06.179] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:07.244] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：6mmk BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:07.360] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:10.294] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:14:10.297] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_010' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:14:10.299] : execution time-consuming:6.07 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:14:11.527] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-04  15:14:12.756] : 成功添加商品到购物车 Event.py -> event_add_car line:68 
+[INFO] [2025-04-04  15:14:12.894] : 点击商品- ShopCar.py -> click_quantity_down line:48 
+[INFO] [2025-04-04  15:14:12.923] : 点击前数量：6,点击后数量：5 test_car_order.py -> test_shop_010 line:72 
+[INFO] [2025-04-04  15:14:12.924] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_010' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:14:12.926] : execution time-consuming:2.62 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:14:15.902] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:15.904] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:14:15.915] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_010' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:14:15.915] : execution time-consuming:2.98 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:14:16.369] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:16.732] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:17.853] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：E2sof BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:17.936] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:19.047] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4q3s BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:19.149] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:25.048] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:14:25.051] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_011' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:14:25.052] : execution time-consuming:9.13 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:14:25.919] : 进入商品详情页 Event.py -> event_good_details line:46 
+[INFO] [2025-04-04  15:14:26.653] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-04  15:14:26.692] : 收货地址为：北京 test_car_order.py -> test_shop_011 line:80 
+[INFO] [2025-04-04  15:14:36.004] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:36.209] : 订单状态：已支付,订单金额：30,个人中心金额：30
+订单页面商品：['可爱叮当猫抱枕', 1, 30]
+个人中心商品：['可爱叮当猫抱枕', 1, 30] test_car_order.py -> test_shop_011 line:88 
+[INFO] [2025-04-04  15:14:36.211] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_011' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:14:36.288] : execution time-consuming:11.16 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:14:39.322] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:39.325] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:14:39.332] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_011' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:14:39.334] : execution time-consuming:3.04 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:14:39.770] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:40.164] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:41.287] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lz0df BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:41.375] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:42.472] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lecez BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:42.562] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:43.613] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：iIrw BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:43.712] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:44.793] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lxoxa BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:44.883] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:46.027] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：10dh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:46.115] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:52.083] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:14:52.085] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_012' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:14:52.086] : execution time-consuming:12.75 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:14:52.958] : 进入商品详情页 Event.py -> event_good_details line:46 
+[INFO] [2025-04-04  15:14:53.615] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-04  15:14:53.645] : 收货地址为：北京 test_car_order.py -> test_shop_012 line:97 
+[INFO] [2025-04-04  15:14:53.695] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_012' when='call' outcome='failed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:14:53.695] : execution time-consuming:1.59 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:14:53.695] : error.screenshot. conftest.py -> pytest_runtest_makereport line:45 
+[INFO] [2025-04-04  15:14:54.912] : 网页截图 BasePage.py -> allure_save_screenshot line:186 
+[INFO] [2025-04-04  15:14:57.937] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:14:57.938] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:14:57.947] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_012' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:14:57.948] : execution time-consuming:3.03 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:14:58.392] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:58.747] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:59.811] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Fgm6 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:14:59.901] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:15:01.110] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hpvr BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:15:01.209] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:15:07.129] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:15:07.129] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_013' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:15:07.129] : execution time-consuming:9.18 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:15:08.043] : 进入商品详情页 Event.py -> event_good_details line:46 
+[INFO] [2025-04-04  15:15:08.577] : 点击选择所有商品 ShopCar.py -> click_check_all line:38 
+[INFO] [2025-04-04  15:15:08.679] : 点击：结算 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:15:08.683] : 点击结算按钮 ShopCar.py -> click_buy line:62 
+[INFO] [2025-04-04  15:15:18.689] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:15:18.847] : 订单状态：已支付,订单金额：180,个人中心金额：180
+订单页面商品：['可爱叮当猫抱枕', 6, 180]
+个人中心商品：['可爱叮当猫抱枕', 6, 30] test_car_order.py -> test_shop_013 line:116 
+[INFO] [2025-04-04  15:15:18.881] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_013' when='call' outcome='failed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:15:18.882] : execution time-consuming:11.72 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:15:18.884] : error.screenshot. conftest.py -> pytest_runtest_makereport line:45 
+[INFO] [2025-04-04  15:15:20.086] : 网页截图 BasePage.py -> allure_save_screenshot line:186 
+[INFO] [2025-04-04  15:15:23.023] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:15:23.025] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:15:23.033] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_013' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:15:23.034] : execution time-consuming:2.94 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:15:23.472] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:15:23.827] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:15:24.861] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：8tn2 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:15:24.953] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:15:30.677] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:15:30.694] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_014' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:15:30.694] : execution time-consuming:7.65 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:15:31.605] : 进入商品详情页 Event.py -> event_good_details line:46 
+[INFO] [2025-04-04  15:15:32.839] : 进入商品详情页 Event.py -> event_good_details2 line:56 
+[INFO] [2025-04-04  15:15:33.657] : 点击选择所有商品 ShopCar.py -> click_check_all line:38 
+[INFO] [2025-04-04  15:15:35.162] : 点击：结算 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:15:35.162] : 点击结算按钮 ShopCar.py -> click_buy line:62 
+[INFO] [2025-04-04  15:15:44.499] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:15:44.726] : 订单状态：已支付,订单金额：53,个人中心金额：53
+订单页面商品：['可爱叮当猫抱枕', 1, 30, '简约棉麻抱枕', 1, 23]
+个人中心商品：['可爱叮当猫抱枕', 1, 30, '简约棉麻抱枕', 1, 23] test_car_order.py -> test_shop_014 line:137 
+[INFO] [2025-04-04  15:15:44.729] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_014' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:15:44.793] : execution time-consuming:14.03 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:15:47.964] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:15:47.966] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:15:47.975] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_014' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:15:47.976] : execution time-consuming:3.18 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:15:48.445] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:15:48.795] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:15:49.844] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lzo5j BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:15:49.935] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:15:50.993] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hpkh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:15:51.094] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:15:56.824] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:15:56.826] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_015' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:15:56.827] : execution time-consuming:8.84 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:15:57.159] : 结算按钮是否可点：False test_car_order.py -> test_shop_015 line:145 
+[INFO] [2025-04-04  15:15:57.176] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_015' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:15:57.176] : execution time-consuming:0.36 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:00.121] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:16:00.121] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:16:02.780] : test report:<TestReport 'pom/test_pom_case/test_car_order.py::TestCarOrder::test_shop_015' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:02.843] : execution time-consuming:5.6 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:08.509] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-04-04  15:16:08.512] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_016_skip_login' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:08.513] : execution time-consuming:5.65 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:12.919] : 搜索：花, in 结果：['蝴蝶兰仿真花', '欧式花瓶', '干花花瓶', '长寿花', '蝴蝶兰仿真花', '欧式花瓶', '干花花瓶', '长寿花'] test_home_usercenter.py -> test_shop_016_skip_login line:23 
+[INFO] [2025-04-04  15:16:12.921] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_016_skip_login' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:13.029] : execution time-consuming:4.41 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:13.038] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_016_skip_login' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:13.039] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:13.044] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-04-04  15:16:13.046] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_017_skip_login' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:13.047] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:16.491] : 搜索：哈哈, in 结果：None test_home_usercenter.py -> test_shop_017_skip_login line:33 
+[INFO] [2025-04-04  15:16:16.495] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_017_skip_login' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:16.497] : execution time-consuming:3.45 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:16.507] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_017_skip_login' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:16.509] : execution time-consuming:0.01 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:16.515] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-04-04  15:16:16.518] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_018_skip_login' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:16.519] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:24.267] : 空搜索,数量：120,结果：['可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型', '可爱叮当猫抱枕', '简约棉麻抱枕', '法式乡村田园抱枕', '地中海格子桌布', '清新简约防水桌布', '北欧清雅桌布', '蝴蝶兰仿真花', '郁金香', '清新紫罗兰', '欧式花瓶', '干花花瓶', '亲嘴鱼摆件', '玻璃装水果盘篮创意拼盘', '长颈鹿漫步图', '长寿花', '动物模型', '精美橱柜', '美丽香炉', '精致香炉', '人物模型'] test_home_usercenter.py -> test_shop_018_skip_login line:42 
+[INFO] [2025-04-04  15:16:24.269] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_018_skip_login' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:24.639] : execution time-consuming:7.75 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:24.647] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_018_skip_login' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:24.648] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:25.112] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:16:25.480] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:16:26.557] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lxsew BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:16:26.669] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:16:27.837] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：ub98 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:16:27.950] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:16:33.827] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:16:33.827] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_019' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:33.827] : execution time-consuming:9.18 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:34.771] : 进入商品详情页 Event.py -> event_good_details line:46 
+[INFO] [2025-04-04  15:16:35.552] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-04  15:16:35.674] : 跳转到个人中心 test_home_usercenter.py -> test_shop_019 line:51 
+[INFO] [2025-04-04  15:16:45.126] : 进入订单页 test_home_usercenter.py -> test_shop_019 line:54 
+[INFO] [2025-04-04  15:16:45.172] : 当前订单状态为：待支付 test_home_usercenter.py -> test_shop_019 line:56 
+[INFO] [2025-04-04  15:16:54.690] : 操作后订单状态为：已支付 test_home_usercenter.py -> test_shop_019 line:60 
+[INFO] [2025-04-04  15:16:54.694] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_019' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:54.709] : execution time-consuming:20.86 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:57.850] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:16:57.851] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:16:57.865] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_019' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:16:57.866] : execution time-consuming:3.14 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:16:58.358] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:16:58.767] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:16:59.976] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：E26wg BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:17:00.124] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:17:01.357] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L9hgy BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:17:01.449] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:17:02.644] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：f0ph BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:17:02.745] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:17:08.849] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:17:08.851] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_020' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:17:08.852] : execution time-consuming:10.98 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:17:09.753] : 进入商品详情页 Event.py -> event_good_details line:46 
+[INFO] [2025-04-04  15:17:10.429] : 点击立即购买 GoodsDetails.py -> click_buy_now line:26 
+[INFO] [2025-04-04  15:17:20.058] : 点击：去支付 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:17:34.989] : 点击：删除订单 test_home_usercenter.py -> test_shop_020 line:75 
+[INFO] [2025-04-04  15:17:35.029] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_020' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:17:35.030] : execution time-consuming:26.18 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:17:38.062] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:17:38.064] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:17:38.077] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_020' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:17:38.081] : execution time-consuming:3.04 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:17:38.549] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:17:38.930] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:17:40.030] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Labwf BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:17:40.127] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:17:41.271] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L0n8o BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:17:41.366] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:17:42.592] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L1bee BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:17:42.694] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:17:43.799] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：o9ci BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:17:43.890] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:17:49.841] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:17:49.842] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_021' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:17:49.842] : execution time-consuming:11.76 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:17:50.221] : 点击：我的购物车 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:17:50.258] : shopcar名称为：购物车 test_home_usercenter.py -> test_shop_021 line:86 
+[INFO] [2025-04-04  15:17:50.258] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_021' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:17:50.258] : execution time-consuming:0.42 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:17:53.484] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:17:53.485] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:17:53.493] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_021' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:17:53.495] : execution time-consuming:3.22 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:17:53.983] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:17:54.347] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:17:55.592] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：wo5p BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:17:55.694] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:18:01.609] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:18:01.609] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_022[admin-123456-123@qq.com-\\u5317\\u4eac]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:18:01.609] : execution time-consuming:8.11 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:18:02.005] : 点击：修改个人信息 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:18:02.165] : 点击：编辑 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:18:04.097] : 点击：保存 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:18:04.165] : 修改用户成功，名称为：admin test_home_usercenter.py -> test_shop_022 line:100 
+[INFO] [2025-04-04  15:18:04.165] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_022[admin-123456-123@qq.com-\\u5317\\u4eac]' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:18:04.170] : execution time-consuming:2.55 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:18:07.153] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:18:07.155] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:18:09.717] : test report:<TestReport 'pom/test_pom_case/test_home_usercenter.py::TestHomeUserCenter::test_shop_022[admin-123456-123@qq.com-\\u5317\\u4eac]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:18:09.717] : execution time-consuming:5.55 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:18:18.527] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:18:18.963] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:18:19.965] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L3kw1 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:18:20.056] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:18:21.224] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：ft8z BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:18:21.310] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:18:27.345] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:18:27.347] : test report:<TestReport 'pom/test_pom_case/test_login.py::TestLogin::test_shop_004' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:18:27.348] : execution time-consuming:17.61 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:18:27.350] : test report:<TestReport 'pom/test_pom_case/test_login.py::TestLogin::test_shop_004' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:18:27.351] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:18:30.564] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:18:30.566] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:18:33.003] : test report:<TestReport 'pom/test_pom_case/test_login.py::TestLogin::test_shop_004' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:18:33.003] : execution time-consuming:5.65 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:46:09.941] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:46:10.257] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:46:11.012] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lwa3e BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:46:11.072] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:46:11.720] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lc0ki BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:46:11.768] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:46:12.320] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L6p9t BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:46:12.391] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:46:13.406] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：b2gs BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:46:13.507] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:46:16.406] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:46:16.406] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_005' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:46:16.406] : execution time-consuming:11.05 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:46:20.188] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_005' when='call' outcome='failed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:46:20.188] : execution time-consuming:2.82 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:46:20.188] : error.screenshot. conftest.py -> pytest_runtest_makereport line:45 
+[INFO] [2025-04-04  15:46:21.997] : 网页截图 BasePage.py -> allure_save_screenshot line:186 
+[INFO] [2025-04-04  15:46:24.896] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:46:24.896] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:46:27.360] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_005' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:46:27.360] : execution time-consuming:5.36 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:48:51.304] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:48:51.575] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:48:52.273] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：1sfs BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  15:48:52.326] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:48:55.042] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  15:48:55.043] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_005' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:48:55.044] : execution time-consuming:8.12 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:48:57.819] : 滚动到第一个商品可见 test_car_order.py -> test_shop_005 line:18 
+[INFO] [2025-04-04  15:48:58.431] : 点击第一个商品 test_car_order.py -> test_shop_005 line:20 
+[INFO] [2025-04-04  15:48:58.948] : 点击加入购物车 test_car_order.py -> test_shop_005 line:23 
+[INFO] [2025-04-04  15:48:58.971] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_005' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:48:58.971] : execution time-consuming:3.93 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  15:49:02.133] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  15:49:02.134] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  15:49:04.528] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_005' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  15:49:04.528] : execution time-consuming:5.56 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  16:57:17.293] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  16:57:17.668] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  16:57:18.415] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：LgI1p BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  16:57:18.498] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  16:57:19.216] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：uf9o BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  16:57:19.253] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  16:57:22.135] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  16:57:22.137] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  16:57:22.137] : execution time-consuming:9.48 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  16:57:22.689] : 结算按钮是否可点：False test_car_order.py -> test_shop_015 line:181 
+[INFO] [2025-04-04  16:57:22.714] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  16:57:22.714] : execution time-consuming:0.59 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  16:57:25.761] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  16:57:25.761] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  16:57:28.245] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  16:57:28.245] : execution time-consuming:5.52 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  16:59:49.580] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  16:59:49.897] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  16:59:50.651] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：jkc9 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  16:59:50.732] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  16:59:53.620] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  16:59:53.622] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  16:59:53.622] : execution time-consuming:8.5 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  16:59:54.179] : 结算按钮是否可点：False test_car_order.py -> test_shop_015 line:181 
+[INFO] [2025-04-04  16:59:54.207] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  16:59:54.208] : execution time-consuming:0.58 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  16:59:57.253] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  16:59:57.253] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  16:59:59.793] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  16:59:59.793] : execution time-consuming:5.58 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  17:02:22.971] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:02:23.249] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:02:23.873] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lznef BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:02:23.924] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:02:24.559] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：u3ed BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:02:24.615] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:02:30.363] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  17:02:30.363] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  17:02:30.363] : execution time-consuming:11.52 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  17:02:30.994] : 结算按钮是否可点：False test_car_order.py -> test_shop_015 line:181 
+[INFO] [2025-04-04  17:02:31.027] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  17:02:31.042] : execution time-consuming:0.67 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  17:02:34.139] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:02:34.139] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  17:02:36.662] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  17:02:36.662] : execution time-consuming:5.62 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  17:15:05.542] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:15:05.876] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:15:06.682] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：y4m0 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:15:06.744] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:15:09.510] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-04-04  17:15:09.512] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  17:15:09.512] : execution time-consuming:10.44 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  17:15:10.077] : 结算按钮是否可点：False test_car_order.py -> test_shop_015 line:181 
+[INFO] [2025-04-04  17:15:10.107] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  17:15:10.108] : execution time-consuming:0.59 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  17:15:13.093] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:15:13.094] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-04-04  17:15:15.524] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:41 
+[INFO] [2025-04-04  17:15:15.524] : execution time-consuming:5.41 second conftest.py -> pytest_runtest_makereport line:42 
+[INFO] [2025-04-04  17:39:53.172] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:39:53.509] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:39:54.248] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：wsuu BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:39:54.330] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:40:00.096] : 登录成功 conftest.py -> login_and_quit line:34 
+[INFO] [2025-04-04  17:40:00.098] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-04  17:40:00.099] : execution time-consuming:11.68 second conftest.py -> pytest_runtest_makereport line:47 
+[INFO] [2025-04-04  17:40:00.679] : 结算按钮是否可点：False test_car_order.py -> test_shop_015 line:181 
+[INFO] [2025-04-04  17:40:00.704] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-04  17:40:00.704] : execution time-consuming:0.61 second conftest.py -> pytest_runtest_makereport line:47 
+[INFO] [2025-04-04  17:40:01.041] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='teardown' outcome='failed'> conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-04  17:40:01.041] : execution time-consuming:0.09 second conftest.py -> pytest_runtest_makereport line:47 
+[INFO] [2025-04-04  17:44:31.067] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:44:31.398] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:44:32.150] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：57zg BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:44:32.224] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:44:37.652] : 登录成功 conftest.py -> login_and_quit line:34 
+[INFO] [2025-04-04  17:44:37.654] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-04  17:44:37.655] : execution time-consuming:11.33 second conftest.py -> pytest_runtest_makereport line:47 
+[INFO] [2025-04-04  17:44:38.233] : 结算按钮是否可点：False test_car_order.py -> test_shop_015 line:181 
+[INFO] [2025-04-04  17:44:38.261] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-04  17:44:38.261] : execution time-consuming:0.61 second conftest.py -> pytest_runtest_makereport line:47 
+[INFO] [2025-04-04  17:44:41.474] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:44:41.474] : 退出登录 conftest.py -> login_and_quit line:38 
+[INFO] [2025-04-04  17:44:44.004] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-04  17:44:44.004] : execution time-consuming:5.74 second conftest.py -> pytest_runtest_makereport line:47 
+[INFO] [2025-04-04  17:51:23.335] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:51:23.666] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:51:24.409] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Ltgjc BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:51:24.491] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:51:25.116] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：3k4n BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:51:25.154] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:51:31.046] : 登录成功 conftest.py -> login_and_quit line:34 
+[INFO] [2025-04-04  17:51:31.048] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-04  17:51:31.048] : execution time-consuming:12.18 second conftest.py -> pytest_runtest_makereport line:47 
+[INFO] [2025-04-04  17:51:31.574] : 结算按钮是否可点：False test_car_order.py -> test_shop_015 line:182 
+[INFO] [2025-04-04  17:51:31.602] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-04  17:51:31.603] : execution time-consuming:0.55 second conftest.py -> pytest_runtest_makereport line:47 
+[INFO] [2025-04-04  17:51:34.471] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:51:34.471] : 退出登录 conftest.py -> login_and_quit line:38 
+[INFO] [2025-04-04  17:51:36.997] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-04  17:51:36.997] : execution time-consuming:5.41 second conftest.py -> pytest_runtest_makereport line:47 
+[INFO] [2025-04-04  17:56:28.100] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:56:28.411] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:56:29.204] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L75iw BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:56:29.253] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:56:29.854] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lzhtf BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:56:29.893] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:56:30.570] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Leggo BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:56:30.610] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:56:31.322] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：rw3r BasePage.py -> send_keys line:62 
+[INFO] [2025-04-04  17:56:31.373] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:56:37.171] : 登录成功 conftest.py -> login_and_quit line:34 
+[INFO] [2025-04-04  17:56:37.172] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:45 
+[INFO] [2025-04-04  17:56:37.172] : execution time-consuming:13.43 second conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-04  17:56:37.721] : 结算按钮是否可点：False test_car_order.py -> test_shop_015 line:182 
+[INFO] [2025-04-04  17:56:37.734] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:45 
+[INFO] [2025-04-04  17:56:37.734] : execution time-consuming:0.57 second conftest.py -> pytest_runtest_makereport line:46 
+[INFO] [2025-04-04  17:56:40.570] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-04  17:56:40.571] : 退出登录 conftest.py -> login_and_quit line:37 
+[INFO] [2025-04-04  17:56:42.834] : test report:<TestReport 'test_car_order.py::TestCarOrder::test_shop_015' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:45 
+[INFO] [2025-04-04  17:56:42.834] : execution time-consuming:5.1 second conftest.py -> pytest_runtest_makereport line:46 

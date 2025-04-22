@@ -1,0 +1,910 @@
+[INFO] [2025-03-20  15:30:19.756] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_001]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:30:19.757] : execution time-consuming:6.25 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:30:21.281] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_001]' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:30:21.282] : execution time-consuming:1.52 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:30:21.282] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_001]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:30:21.282] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:30:21.283] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_002]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:30:21.284] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:30:22.700] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_002]' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:30:22.701] : execution time-consuming:1.42 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:30:22.701] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_002]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:30:22.701] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:30:22.702] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_003]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:30:22.702] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:30:24.156] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_003]' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:30:24.156] : execution time-consuming:1.45 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:30:26.384] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_003]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:30:26.384] : execution time-consuming:2.23 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:43:37.461] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_001]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:43:37.462] : execution time-consuming:5.93 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:43:39.716] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:39 
+[INFO] [2025-03-20  15:43:40.071] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:39 
+[INFO] [2025-03-20  15:43:40.433] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：1234 BasePage.py -> send_keys line:39 
+[INFO] [2025-03-20  15:43:43.435] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_001]' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:43:43.436] : execution time-consuming:5.97 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:43:43.437] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_001]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:43:43.437] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:43:43.437] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_002]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:43:43.437] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:43:45.391] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:39 
+[INFO] [2025-03-20  15:43:45.785] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:39 
+[INFO] [2025-03-20  15:43:46.237] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：1234 BasePage.py -> send_keys line:39 
+[INFO] [2025-03-20  15:43:49.249] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_002]' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:43:49.249] : execution time-consuming:5.81 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:43:49.251] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_002]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:43:49.251] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:43:49.255] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_003]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:43:49.255] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:43:51.401] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:39 
+[INFO] [2025-03-20  15:43:51.846] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:39 
+[INFO] [2025-03-20  15:43:52.260] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：1234 BasePage.py -> send_keys line:39 
+[INFO] [2025-03-20  15:43:55.287] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_003]' when='call' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:43:55.288] : execution time-consuming:6.03 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  15:43:58.069] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_003]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:30 
+[INFO] [2025-03-20  15:43:58.069] : execution time-consuming:2.78 second conftest.py -> pytest_runtest_makereport line:31 
+[INFO] [2025-03-20  18:39:48.227] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_001]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:39:48.228] : execution time-consuming:10.01 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:39:48.428] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_001]' when='call' outcome='failed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:39:48.429] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:39:48.429] : error.screenshot. conftest.py -> pytest_runtest_makereport line:31 
+[ERROR] [2025-03-20  18:39:48.429] : 'HomePage' object has no attribute 'allure_save_screenshot' conftest.py -> pytest_runtest_makereport line:34 
+[INFO] [2025-03-20  18:39:48.429] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_001]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:39:48.429] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:39:48.429] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_002]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:39:48.429] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:39:48.429] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_002]' when='call' outcome='failed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:39:48.429] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:39:48.429] : error.screenshot. conftest.py -> pytest_runtest_makereport line:31 
+[ERROR] [2025-03-20  18:39:48.429] : 'HomePage' object has no attribute 'allure_save_screenshot' conftest.py -> pytest_runtest_makereport line:34 
+[INFO] [2025-03-20  18:39:48.429] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_002]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:39:48.429] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:39:48.429] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_003]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:39:48.429] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:39:48.429] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_003]' when='call' outcome='failed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:39:48.429] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:39:48.429] : error.screenshot. conftest.py -> pytest_runtest_makereport line:31 
+[ERROR] [2025-03-20  18:39:48.429] : 'HomePage' object has no attribute 'allure_save_screenshot' conftest.py -> pytest_runtest_makereport line:34 
+[INFO] [2025-03-20  18:39:50.768] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_003]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:39:50.768] : execution time-consuming:2.33 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:40:47.913] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_001]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:40:47.914] : execution time-consuming:7.84 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:40:49.966] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:40:50.299] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:40:51.501] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:40:51.618] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  18:40:52.956] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_001]' when='call' outcome='failed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:40:52.956] : execution time-consuming:3.82 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:40:52.956] : error.screenshot. conftest.py -> pytest_runtest_makereport line:31 
+[ERROR] [2025-03-20  18:40:52.956] : 'HomePage' object has no attribute 'allure_save_screenshot' conftest.py -> pytest_runtest_makereport line:34 
+[INFO] [2025-03-20  18:40:52.956] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_001]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:40:52.956] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:40:52.968] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_002]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:40:52.970] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:40:55.468] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:40:55.851] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:40:56.852] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:40:56.977] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  18:40:57.219] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_002]' when='call' outcome='failed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:40:57.219] : execution time-consuming:4.16 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:40:57.219] : error.screenshot. conftest.py -> pytest_runtest_makereport line:31 
+[ERROR] [2025-03-20  18:40:57.234] : 'HomePage' object has no attribute 'allure_save_screenshot' conftest.py -> pytest_runtest_makereport line:34 
+[INFO] [2025-03-20  18:40:57.234] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_002]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:40:57.234] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:40:57.234] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_003]' when='setup' outcome='passed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:40:57.234] : execution time-consuming:0.0 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:40:59.197] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:40:59.581] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:40:59.963] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:41:00.476] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:41:00.551] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  18:41:00.656] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_003]' when='call' outcome='failed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:41:00.656] : execution time-consuming:3.32 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:41:00.656] : error.screenshot. conftest.py -> pytest_runtest_makereport line:31 
+[ERROR] [2025-03-20  18:41:00.656] : 'HomePage' object has no attribute 'allure_save_screenshot' conftest.py -> pytest_runtest_makereport line:34 
+[INFO] [2025-03-20  18:41:03.370] : test report:<TestReport 'test_login.py::TestLogin::test_shop[test_shop_003]' when='teardown' outcome='passed'> conftest.py -> pytest_runtest_makereport line:27 
+[INFO] [2025-03-20  18:41:03.370] : execution time-consuming:2.71 second conftest.py -> pytest_runtest_makereport line:28 
+[INFO] [2025-03-20  18:44:05.859] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:44:06.225] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:44:06.808] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:44:06.857] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  18:44:07.467] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:44:07.518] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  18:44:07.577] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  18:44:10.493] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:44:10.898] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:44:11.998] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:44:12.121] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  18:44:13.320] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:44:13.479] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  18:44:13.624] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  18:44:16.087] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:44:16.503] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  18:44:16.923] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:00:07.692] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:00:08.009] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:00:08.692] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:00:08.751] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  19:00:11.834] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:00:12.202] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:00:13.090] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:00:13.190] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  19:00:15.151] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:00:15.570] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:00:16.031] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:01:54.298] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:01:54.725] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:01:56.039] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:01:56.112] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  19:02:00.985] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:02:01.457] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:02:02.451] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:02:02.549] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  19:02:06.129] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:02:06.566] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:02:06.986] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:03:41.629] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:03:41.946] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:03:42.553] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:03:42.647] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  19:03:45.571] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:03:46.011] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:03:47.075] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:03:47.201] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  19:03:50.046] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:03:50.412] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:03:50.896] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:06:00.269] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:06:00.617] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:06:01.223] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:06:01.329] : 点击：用户登录 BasePage.py -> click line:98 
+[INFO] [2025-03-20  19:10:59.947] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:11:00.313] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:11:00.980] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:11:01.079] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:11:50.503] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:11:50.663] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:12:02.559] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:12:40.214] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:12:40.515] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:12:41.095] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:12:41.202] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:12:58.915] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:12:59.031] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:13:11.793] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:13:19.911] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:13:20.086] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:14:45.149] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:14:45.504] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:15:28.069] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:17:28.052] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:17:28.373] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:17:28.950] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4c8u BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:17:29.021] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:17:30.197] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：dcjq BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:17:30.240] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:17:30.310] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:17:33.351] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:17:33.788] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:17:34.882] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：dcjq BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:17:35.004] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:17:36.547] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：i8cd BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:17:36.679] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:17:36.839] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:17:39.311] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:17:39.724] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:17:40.149] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:19:42.200] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:19:42.538] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:19:53.484] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：i8cd BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:20:53.490] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:20:53.824] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:22:19.633] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:22:19.980] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:22:50.572] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：g6i4 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:22:54.785] : 点击：用户登录 BasePage.py -> click line:102 
+[ERROR] [2025-03-20  19:23:49.723] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  19:24:02.279] : 尝试 2 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  19:24:14.842] : 尝试 3 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  19:24:14.843] : Element 不存在 after 3 attempts: ('xpath', '/html/body/div/form/p[3]/span') BasePage.py -> find_element line:89 
+[ERROR] [2025-03-20  19:28:40.105] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  19:28:52.654] : 尝试 2 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  19:29:05.161] : 尝试 3 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  19:29:05.161] : Element 不存在 after 3 attempts: ('xpath', "//a[@id='login']") BasePage.py -> find_element line:89 
+[ERROR] [2025-03-20  19:29:24.217] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  19:29:36.774] : 尝试 2 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  19:29:49.298] : 尝试 3 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  19:29:49.298] : Element 不存在 after 3 attempts: ('xpath', "//a[@id='login']") BasePage.py -> find_element line:89 
+[INFO] [2025-03-20  19:36:10.440] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:36:10.876] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:36:23.316] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：68kv BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:36:24.221] : 点击：用户登录 BasePage.py -> click line:102 
+[ERROR] [2025-03-20  19:36:59.920] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  19:37:12.487] : 尝试 2 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  19:37:25.020] : 尝试 3 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  19:37:25.020] : Element 不存在 after 3 attempts: ('xpath', '/html/body/div/form/p[3]/span') BasePage.py -> find_element line:89 
+[ERROR] [2025-03-20  19:38:23.155] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[INFO] [2025-03-20  19:41:09.970] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:41:10.345] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:41:11.805] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L7fmh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:41:11.921] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:41:16.925] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:41:17.402] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:41:18.865] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lx0pv BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:41:19.000] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  19:41:22.434] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:41:22.865] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  19:41:23.300] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:00:22.221] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:00:22.574] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:00:23.397] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：jod9 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:00:23.443] : 点击：用户登录 BasePage.py -> click line:102 
+[ERROR] [2025-03-20  20:00:52.095] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  20:01:04.650] : 尝试 2 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  20:01:17.226] : 尝试 3 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  20:01:17.228] : Element 不存在 after 3 attempts: ('xpath', '/html/body/div/form/p[3]/span') BasePage.py -> find_element line:89 
+[ERROR] [2025-03-20  20:01:59.112] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  20:02:11.665] : 尝试 2 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  20:02:24.207] : 尝试 3 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  20:02:24.207] : Element 不存在 after 3 attempts: ('xpath', "//a[@id='login']") BasePage.py -> find_element line:89 
+[ERROR] [2025-03-20  20:02:36.528] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  20:02:49.085] : 尝试 2 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  20:03:01.661] : 尝试 3 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  20:03:01.661] : Element 不存在 after 3 attempts: ('xpath', "//a[@id='login']") BasePage.py -> find_element line:89 
+[INFO] [2025-03-20  20:04:11.505] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:04:11.848] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:04:12.678] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：IF1s BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:04:12.735] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:05:18.602] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:05:18.931] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:05:20.140] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lztxy BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:05:20.214] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:05:29.641] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lf3tg BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:05:29.808] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:05:38.720] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:05:49.477] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L6gc5 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:05:49.598] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:05:52.809] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:06:00.543] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lccmm BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:06:00.661] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:06:02.212] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:06:05.987] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：d2ji BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:06:06.127] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:06:09.015] : 点击：用户登录 BasePage.py -> click line:102 
+[ERROR] [2025-03-20  20:24:03.193] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  20:24:15.765] : 尝试 2 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  20:24:28.302] : 尝试 3 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C8F6FE15+26629]
+	(No symbol) [0x00007FF6C8ED5FE0]
+	(No symbol) [0x00007FF6C8D6931A]
+	(No symbol) [0x00007FF6C8DBF8E7]
+	(No symbol) [0x00007FF6C8DBFB1C]
+	(No symbol) [0x00007FF6C8E134A7]
+	(No symbol) [0x00007FF6C8DE7AEF]
+	(No symbol) [0x00007FF6C8E10169]
+	(No symbol) [0x00007FF6C8DE7883]
+	(No symbol) [0x00007FF6C8DB0550]
+	(No symbol) [0x00007FF6C8DB1803]
+	GetHandleVerifier [0x00007FF6C92C728D+3529853]
+	GetHandleVerifier [0x00007FF6C92DD9F2+3621858]
+	GetHandleVerifier [0x00007FF6C92D24A3+3575443]
+	GetHandleVerifier [0x00007FF6C903B74A+860474]
+	(No symbol) [0x00007FF6C8EE085F]
+	(No symbol) [0x00007FF6C8EDCB94]
+	(No symbol) [0x00007FF6C8EDCD36]
+	(No symbol) [0x00007FF6C8ECC299]
+	BaseThreadInitThunk [0x00007FF9D678E8D7+23]
+	RtlUserThreadStart [0x00007FF9D78FBF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-20  20:24:28.302] : Element 不存在 after 3 attempts: () BasePage.py -> find_element line:89 
+[INFO] [2025-03-20  20:26:10.601] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:26:11.020] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:26:12.419] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：dFys BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:26:12.479] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:26:13.636] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：itef BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:26:13.780] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:27:44.772] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:27:45.081] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:27:45.874] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Ixb5 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:27:45.965] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:27:47.115] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：b6dv BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:27:47.168] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:30:29.266] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:30:29.601] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:30:30.339] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hpz8 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:30:30.391] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:31:19.230] : 点击：退出登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:32:01.975] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:32:02.424] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:32:03.353] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：ii57 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:32:03.406] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:33:05.531] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:33:05.962] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:33:06.401] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:35:08.483] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:35:08.830] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:35:09.870] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：wql8 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:35:09.923] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:35:13.396] : 点击：退出登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:35:15.192] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:35:15.613] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:35:16.866] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：rIyj BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:35:16.958] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:35:18.214] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：pq54 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:35:18.320] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:35:21.236] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:35:21.645] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:35:22.041] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:38:02.269] : 
+ test_login.py -> test_shop line:23 
+[INFO] [2025-03-20  20:38:04.099] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:38:04.417] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:38:05.708] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L2wja BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:38:05.785] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:38:07.058] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：mvrm BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:38:07.132] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:38:11.588] : 点击：退出登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:38:11.593] : 
+ test_login.py -> test_shop line:23 
+[INFO] [2025-03-20  20:38:13.788] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:38:14.222] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:38:15.523] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：rwcx BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:38:15.654] : 点击：用户登录 BasePage.py -> click line:102 
+[INFO] [2025-03-20  20:38:15.928] : 
+ test_login.py -> test_shop line:23 
+[INFO] [2025-03-20  20:38:18.664] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:38:19.154] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-20  20:38:19.605] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:55 

@@ -1,0 +1,68 @@
+[INFO] [2025-03-30  12:14:00.643] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-30  12:16:14.651] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-30  12:23:22.181] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-30  12:25:52.655] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-30  12:31:08.462] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-30  12:54:42.483] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-30  13:11:24.471] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-30  13:12:36.822] : 跳过登录逻辑 conftest.py -> login_and_quit line:26 
+[INFO] [2025-03-30  13:12:39.265] : 搜索：花, in 结果：['蝴蝶兰仿真花', '欧式花瓶', '干花花瓶', '长寿花', '蝴蝶兰仿真花', '欧式花瓶', '干花花瓶', '长寿花'] test_home_usercenter.py -> test_shop_016_skip_login line:19 
+[INFO] [2025-03-30  13:34:20.833] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-30  13:34:21.185] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-30  13:34:22.035] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：LvcIo BasePage.py -> send_keys line:55 
+[INFO] [2025-03-30  13:34:22.086] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-03-30  13:34:22.673] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：njrx BasePage.py -> send_keys line:55 
+[INFO] [2025-03-30  13:34:22.727] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-03-30  13:34:25.843] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-03-30  13:34:26.431] : 进入商品详情页 Event.py -> event_good_details line:46 
+[INFO] [2025-03-30  13:34:26.788] : 点击立即购买 GoodsDetails.py -> click_buy_now line:27 
+[INFO] [2025-03-30  13:34:29.409] : 点击：退出登录 BasePage.py -> click line:122 
+[INFO] [2025-03-30  13:34:29.410] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-03-30  13:35:12.243] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-30  13:35:12.553] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-30  13:35:13.231] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：jbxo BasePage.py -> send_keys line:55 
+[INFO] [2025-03-30  13:35:13.287] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-03-30  13:35:16.321] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-03-30  13:35:16.903] : 进入商品详情页 Event.py -> event_good_details line:46 
+[INFO] [2025-03-30  13:35:17.300] : 点击立即购买 GoodsDetails.py -> click_buy_now line:27 
+[INFO] [2025-03-30  13:35:21.616] : 当前订单状态为：待支付 test_home_usercenter.py -> test_shop_019 line:53 
+[ERROR] [2025-03-30  13:35:32.143] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF6FB95FE15+26629]
+	(No symbol) [0x00007FF6FB8C5FE0]
+	(No symbol) [0x00007FF6FB75931A]
+	(No symbol) [0x00007FF6FB7AF8E7]
+	(No symbol) [0x00007FF6FB7AFB1C]
+	(No symbol) [0x00007FF6FB8034A7]
+	(No symbol) [0x00007FF6FB7D7AEF]
+	(No symbol) [0x00007FF6FB800169]
+	(No symbol) [0x00007FF6FB7D7883]
+	(No symbol) [0x00007FF6FB7A0550]
+	(No symbol) [0x00007FF6FB7A1803]
+	GetHandleVerifier [0x00007FF6FBCB728D+3529853]
+	GetHandleVerifier [0x00007FF6FBCCD9F2+3621858]
+	GetHandleVerifier [0x00007FF6FBCC24A3+3575443]
+	GetHandleVerifier [0x00007FF6FBA2B74A+860474]
+	(No symbol) [0x00007FF6FB8D085F]
+	(No symbol) [0x00007FF6FB8CCB94]
+	(No symbol) [0x00007FF6FB8CCD36]
+	(No symbol) [0x00007FF6FB8BC299]
+	BaseThreadInitThunk [0x00007FFF931BE8D7+23]
+	RtlUserThreadStart [0x00007FFF9455BF6C+44]
+ BasePage.py -> find_element line:85 
+[ERROR] [2025-03-30  13:35:32.143] : Element 不存在 after 1 attempts: ('xpath', '/html/body/div[3]/div/div[2]/div[3]/div[4]/p/a') BasePage.py -> find_element line:89 
+[INFO] [2025-03-30  13:35:35.215] : 点击：退出登录 BasePage.py -> click line:122 
+[INFO] [2025-03-30  13:35:35.215] : 退出登录 conftest.py -> login_and_quit line:33 
+[INFO] [2025-03-30  13:37:10.516] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:55 
+[INFO] [2025-03-30  13:37:10.819] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-30  13:37:11.522] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lx3yp BasePage.py -> send_keys line:55 
+[INFO] [2025-03-30  13:37:11.579] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-03-30  13:37:12.211] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：1kj9 BasePage.py -> send_keys line:55 
+[INFO] [2025-03-30  13:37:12.254] : 点击：用户登录 BasePage.py -> click line:122 
+[INFO] [2025-03-30  13:37:15.014] : 登录成功 conftest.py -> login_and_quit line:30 
+[INFO] [2025-03-30  13:37:15.626] : 进入商品详情页 Event.py -> event_good_details line:46 
+[INFO] [2025-03-30  13:37:15.938] : 点击立即购买 GoodsDetails.py -> click_buy_now line:27 
+[INFO] [2025-03-30  13:37:20.378] : 当前订单状态为：待支付 test_home_usercenter.py -> test_shop_019 line:53 
+[INFO] [2025-03-30  13:37:25.890] : 操作后订单状态为：已支付 test_home_usercenter.py -> test_shop_019 line:57 
+[INFO] [2025-03-30  13:37:27.406] : 点击：退出登录 BasePage.py -> click line:122 
+[INFO] [2025-03-30  13:37:27.407] : 退出登录 conftest.py -> login_and_quit line:33 

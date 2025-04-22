@@ -1,0 +1,7 @@
+[INFO] [2025-04-20  12:23:55.223] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-20  12:23:59.041] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-20  12:23:59.376] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-20  12:24:00.371] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：cus6 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-20  12:24:00.509] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-20  12:24:06.163] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-20  12:24:06.167] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 

@@ -1,0 +1,574 @@
+[INFO] [2025-04-17  19:59:57.139] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:00:12.472] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:00:12.834] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:00:13.190] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：None BasePage.py -> send_keys line:62 
+[ERROR] [2025-04-17  20:00:16.989] : 登录异常： Event.py -> event_login line:25 
+[ERROR] [2025-04-17  20:00:27.615] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:00:27.644] : Element 不存在 after 1 attempts: ('xpath', '/html/body/div/form/p[1]/span') BasePage.py -> find_element line:98 
+[INFO] [2025-04-17  20:00:30.054] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-17  20:00:30.054] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-17  20:00:30.054] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:00:36.876] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:00:37.275] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:00:37.650] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：None BasePage.py -> send_keys line:62 
+[ERROR] [2025-04-17  20:00:41.174] : 登录异常： Event.py -> event_login line:25 
+[ERROR] [2025-04-17  20:00:51.719] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:00:51.719] : Element 不存在 after 1 attempts: ('xpath', '/html/body/div/form/p[3]/span') BasePage.py -> find_element line:98 
+[INFO] [2025-04-17  20:00:54.058] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-17  20:00:54.058] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-17  20:00:54.058] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:01:00.464] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:01:00.768] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:01:01.124] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：None BasePage.py -> send_keys line:62 
+[ERROR] [2025-04-17  20:01:04.299] : 登录异常： Event.py -> event_login line:25 
+[INFO] [2025-04-17  20:01:57.845] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:02:04.642] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:02:05.019] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:02:06.447] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4679 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:02:06.551] : 点击：用户登录 BasePage.py -> click line:131 
+[ERROR] [2025-04-17  20:02:20.720] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:02:20.720] : Element 不存在 after 1 attempts: ('xpath', '/html/body/div/form/p[1]/span') BasePage.py -> find_element line:98 
+[INFO] [2025-04-17  20:02:23.029] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-17  20:02:23.029] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-17  20:02:23.045] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[ERROR] [2025-04-17  20:02:39.781] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:02:39.781] : Element 不存在 after 1 attempts: ('xpath', "//a[@id='login']") BasePage.py -> find_element line:98 
+[INFO] [2025-04-17  20:02:41.376] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-17  20:02:41.381] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-17  20:02:41.383] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[ERROR] [2025-04-17  20:02:57.978] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:02:57.980] : Element 不存在 after 1 attempts: ('xpath', "//a[@id='login']") BasePage.py -> find_element line:98 
+[INFO] [2025-04-17  20:02:59.600] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-17  20:02:59.609] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-17  20:09:02.444] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:09:08.978] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:09:09.360] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:09:10.764] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：38rb BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:09:10.862] : 点击：用户登录 BasePage.py -> click line:131 
+[ERROR] [2025-04-17  20:09:27.672] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:09:27.672] : Element 不存在 after 1 attempts: ('xpath', '/html/body/div/form/p[1]/span') BasePage.py -> find_element line:98 
+[INFO] [2025-04-17  20:09:30.450] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-17  20:09:30.450] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-17  20:09:30.465] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[ERROR] [2025-04-17  20:09:47.886] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:09:47.886] : Element 不存在 after 1 attempts: ('xpath', "//a[@id='login']") BasePage.py -> find_element line:98 
+[INFO] [2025-04-17  20:09:50.449] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-17  20:09:50.449] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-17  20:09:50.449] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[ERROR] [2025-04-17  20:10:07.681] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:10:07.681] : Element 不存在 after 1 attempts: ('xpath', "//a[@id='login']") BasePage.py -> find_element line:98 
+[INFO] [2025-04-17  20:10:10.132] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-17  20:10:10.132] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-17  20:12:34.424] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:12:40.805] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:12:41.238] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:12:42.598] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：pbb1 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:12:42.668] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:12:49.018] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[ERROR] [2025-04-17  20:13:05.931] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:13:05.931] : Element 不存在 after 1 attempts: ('xpath', "//a[@id='login']") BasePage.py -> find_element line:98 
+[INFO] [2025-04-17  20:13:08.418] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-17  20:13:08.418] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-17  20:13:08.434] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[ERROR] [2025-04-17  20:13:25.322] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:13:25.322] : Element 不存在 after 1 attempts: ('xpath', "//a[@id='login']") BasePage.py -> find_element line:98 
+[INFO] [2025-04-17  20:13:28.067] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-17  20:13:28.067] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-17  20:14:30.060] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:14:36.696] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:14:37.068] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:14:38.522] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L0st6 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:14:38.644] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:14:39.862] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lc87u BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:14:39.980] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:14:41.277] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：644z BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:14:41.381] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:14:48.605] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:14:48.606] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:14:54.961] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:14:55.330] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:14:56.596] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：94s4 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:14:56.717] : 点击：用户登录 BasePage.py -> click line:131 
+[ERROR] [2025-04-17  20:15:13.467] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:15:13.467] : Element 不存在 after 1 attempts: ('xpath', '/html/body/div/form/p[1]/span') BasePage.py -> find_element line:98 
+[INFO] [2025-04-17  20:15:15.935] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-17  20:15:15.939] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-17  20:15:15.939] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:15:29.410] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:15:29.722] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:15:30.046] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[ERROR] [2025-04-17  20:15:33.029] : 登录异常： Event.py -> event_login line:25 
+[ERROR] [2025-04-17  20:15:43.552] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:15:43.552] : Element 不存在 after 1 attempts: ('xpath', '/html/body/div/form/p[3]/span') BasePage.py -> find_element line:98 
+[INFO] [2025-04-17  20:15:46.097] : 网页截图 BasePage.py -> chrome_save_screenshot line:178 
+[INFO] [2025-04-17  20:15:46.097] : 将截图放到allure报告里 BasePage.py -> allure_save_screenshot line:188 
+[INFO] [2025-04-17  20:19:11.648] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:19:17.724] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:19:18.084] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:19:19.030] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：upkm BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:19:19.162] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:19:22.461] : 登录成功 Event.py -> event_login line:24 
+[INFO] [2025-04-17  20:19:55.655] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:20:18.523] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:22:34.932] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:22:35.308] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:22:36.013] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：jiuf BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:22:36.160] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:22:42.442] : 登录成功 Event.py -> event_login line:24 
+[INFO] [2025-04-17  20:23:54.152] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:23:56.531] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:23:56.838] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:23:57.427] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lx2pb BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:23:57.498] : 点击：用户登录 BasePage.py -> click line:131 
+[ERROR] [2025-04-17  20:24:08.136] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:24:08.136] : Element 不存在 after 1 attempts: ('xpath', "//*[@id='top1']/p/a") BasePage.py -> find_element line:98 
+[ERROR] [2025-04-17  20:24:08.136] : 登录异常：Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ Event.py -> event_login line:26 
+[INFO] [2025-04-17  20:24:22.102] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:24:22.105] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:24:25.470] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:24:25.812] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:24:27.038] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L2ec9 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:24:27.160] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:24:28.390] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：pexs BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:24:28.499] : 点击：用户登录 BasePage.py -> click line:131 
+[ERROR] [2025-04-17  20:24:39.171] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:24:39.171] : Element 不存在 after 1 attempts: ('xpath', "//*[@id='top1']/p/a") BasePage.py -> find_element line:98 
+[ERROR] [2025-04-17  20:24:39.171] : 登录异常：Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ Event.py -> event_login line:26 
+[INFO] [2025-04-17  20:24:39.218] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:24:42.407] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:24:42.832] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:24:43.195] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[ERROR] [2025-04-17  20:24:53.879] : 尝试 1 次后失败异常为: Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ BasePage.py -> find_element line:94 
+[ERROR] [2025-04-17  20:24:53.879] : Element 不存在 after 1 attempts: ('xpath', "//*[@id='top1']/p/a") BasePage.py -> find_element line:98 
+[ERROR] [2025-04-17  20:24:53.879] : 登录异常：Message: 
+Stacktrace:
+	GetHandleVerifier [0x00007FF799F9FE15+26629]
+	(No symbol) [0x00007FF799F05FE0]
+	(No symbol) [0x00007FF799D9931A]
+	(No symbol) [0x00007FF799DEF8E7]
+	(No symbol) [0x00007FF799DEFB1C]
+	(No symbol) [0x00007FF799E434A7]
+	(No symbol) [0x00007FF799E17AEF]
+	(No symbol) [0x00007FF799E40169]
+	(No symbol) [0x00007FF799E17883]
+	(No symbol) [0x00007FF799DE0550]
+	(No symbol) [0x00007FF799DE1803]
+	GetHandleVerifier [0x00007FF79A2F728D+3529853]
+	GetHandleVerifier [0x00007FF79A30D9F2+3621858]
+	GetHandleVerifier [0x00007FF79A3024A3+3575443]
+	GetHandleVerifier [0x00007FF79A06B74A+860474]
+	(No symbol) [0x00007FF799F1085F]
+	(No symbol) [0x00007FF799F0CB94]
+	(No symbol) [0x00007FF799F0CD36]
+	(No symbol) [0x00007FF799EFC299]
+	BaseThreadInitThunk [0x00007FFBBDD0E8D7+23]
+	RtlUserThreadStart [0x00007FFBBFB914FC+44]
+ Event.py -> event_login line:26 
+[INFO] [2025-04-17  20:25:56.516] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:25:58.520] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:25:58.840] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:25:59.469] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L77fu BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:25:59.543] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:26:00.219] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：vh6k BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:26:00.256] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:26:03.843] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:26:03.843] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:26:06.116] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:26:06.475] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:26:07.715] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4mqr BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:26:07.832] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-17  20:26:07.987] : 跳过登录逻辑 conftest.py -> login_and_quit line:60 
+[INFO] [2025-04-17  20:26:10.283] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:26:10.710] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-17  20:26:11.094] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:62 

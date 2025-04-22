@@ -1,0 +1,21 @@
+test_user:
+  - username: "admin"
+    password: "000"
+
+test_login:
+  - name: "test_shop_002_skip_login"
+    username: "admin"
+    password: "000"
+    result: "你好"
+    code: null
+  - name: "test_shop_003_skip_login"
+    username: "hhh"
+    password: "hhh"
+    result: "用户"
+    code: null
+  - name: "test_shop_004_skip_login"
+    username: "admin"
+    password: "000"
+    result: "验证码"
+    code: "hhh"
+
