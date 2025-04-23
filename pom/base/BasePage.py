@@ -25,7 +25,7 @@ class BasePage:
                 self.driver.implicitly_wait(10)
                 self.driver.maximize_window()
 
-                # 初始化
+                # 初始化数据
                 # MysqlAuto().execute()
         except Exception as e:
             log.error(f"初始化失败：{e}")
