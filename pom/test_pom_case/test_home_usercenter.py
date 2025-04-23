@@ -110,6 +110,7 @@ class TestHomeUserCenter:
     def test_shop_023_skip_login(self, browser):
         driver = browser
         driver.get_url(ENV.url)
+<<<<<<< HEAD
         log.info("本用例故意制造错误，测试将错误截图保存到allure报告中")
         driver.find_element(By.XPATH, "//img[@src='img/laaaogo.png']")
 
@@ -120,3 +121,15 @@ if __name__ == '__main__':
     #             '--alluredir=../../allure_result'])
     #os.system(r"allure generate ../../allure_result -o ../../allure_page -c")
     #subprocess.Popen(r"allure open ../../allure_page", shell=True)
+=======
+        driver.find_element(By.XPATH, "//img[@src='img/laaaogo.png']")
+
+
+
+if __name__ == '__main__':
+    # pytest.main(['-vs', 'test_home_usercenter.py::TestHomeUserCenter::test_shop_023'])
+    pytest.main(['-vs', 'test_home_usercenter.py::TestHomeUserCenter::test_shop_023_skip_login', '--clean-alluredir',
+                 '--alluredir=../../allure_result'])
+    os.system(r"allure generate ../../allure_result -o ../../allure_page -c")
+    subprocess.Popen(r"allure open ../../allure_page", shell=True)
+>>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0

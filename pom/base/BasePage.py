@@ -25,7 +25,11 @@ class BasePage:
                 self.driver.implicitly_wait(10)
                 self.driver.maximize_window()
 
+<<<<<<< HEAD
                 # 初始化
+=======
+                # 初始化数据
+>>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
                 # MysqlAuto().execute()
         except Exception as e:
             log.error(f"初始化失败：{e}")
@@ -91,12 +95,20 @@ class BasePage:
                     EC.presence_of_element_located(selector)
                 )
             except (TimeoutException, NoSuchElementException) as e:
+<<<<<<< HEAD
                 log.error(f"重试 {attempt + 1} 次")
+=======
+                log.error(f"尝试 {attempt + 1} 次后失败异常为: {e}")
+>>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
                 if attempt < retries - 1:
                     time.sleep(1)  # 等待1秒后重试
                 else:
                     log.error(f"Element 不存在 after {retries} attempts: {selector}")
+<<<<<<< HEAD
                     # raise
+=======
+                    raise  # 手动抛出异常
+>>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
         return None
 
     # 找到多个元素
@@ -107,12 +119,20 @@ class BasePage:
                     EC.presence_of_all_elements_located(selector)
                 )
             except (TimeoutException, NoSuchElementException) as e:
+<<<<<<< HEAD
                 log.error(f"重试 {attempt + 1} ")
+=======
+                log.error(f"尝试 {attempt + 1} 次后失败异常为: {e}")
+>>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
                 if attempt < retries - 1:
                     time.sleep(1)  # 等待1秒后重试
                 else:
                     log.error(f"Element 不存在 after {retries} attempts: {selector}")
+<<<<<<< HEAD
                     # raise
+=======
+                    raise  # 手动抛出异常
+>>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
         return None
 
     # 得到元素text文本

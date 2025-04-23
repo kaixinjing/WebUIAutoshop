@@ -2,6 +2,10 @@ from time import sleep
 import allure
 from WebUIAutoshop.common.log import log
 from WebUIAutoshop.pom.page.GoodsDetails import GoodsDetails
+<<<<<<< HEAD
+=======
+from WebUIAutoshop.pom.page.Home import Home
+>>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
 from WebUIAutoshop.pom.page.Login import Login
 from WebUIAutoshop.pom.page.UserCenter import UserCenter
 from WebUIAutoshop.settings import ENV
@@ -18,6 +22,11 @@ class Event:
             login.input_password(password)
             login.input_code(code)
             login.click_login_btn()
+<<<<<<< HEAD
+=======
+            home = Home(browser)
+            assert "你好" in home.find_login_msg()
+>>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
         except Exception as e:
             log.error(f'登录异常：{e}')
 

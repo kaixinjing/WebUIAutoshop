@@ -5,7 +5,11 @@ from WebUIAutoshop.settings import ENV
 class Home:
     def __init__(self, browser):
         self.driver = browser
+<<<<<<< HEAD
         # self.driver.get_url(ENV.url)
+=======
+        self.driver.get_url(ENV.url)
+>>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
         self.login_btn = (By.XPATH, "//a[@id='login']")
         self.login_msg = (By.XPATH, "//*[@id='top1']/p/a")
         self.user_center = (By.XPATH, "//img[@src='img/grzx.png']")
@@ -74,3 +78,9 @@ class Home:
     # 滚动到搜索结果可见
     def scroll_search_result(self):
         self.driver.scroll(self.search_result)
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
