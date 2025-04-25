@@ -1,0 +1,3 @@
+INFO     log_name:conftest.py:62 跳过登录逻辑
+INFO     log_name:Event.py:68 成功添加商品到购物车
+INFO     log_name:BasePage.py:72 你还未登录!

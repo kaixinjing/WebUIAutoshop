@@ -1,0 +1,22 @@
+INFO     log_name:sql.py:14 连接数据库：localhost/shop
+INFO     log_name:sql.py:34 sql：DELETE oi FROM shop_orderitem oi JOIN shop_order o ON oi.order_id = o.order_id JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = %s
+DEBUG    log_name:sql.py:36 []
+INFO     log_name:sql.py:34 sql：DELETE c FROM shop_cart c JOIN shop_user u ON c.user_id = u.user_id WHERE u.user_name = % s
+DEBUG    log_name:sql.py:36 []
+INFO     log_name:sql.py:34 sql：DELETE o FROM shop_order o JOIN shop_user u ON o.user_id = u.user_id WHERE u.user_name = % s
+DEBUG    log_name:sql.py:36 []
+INFO     log_name:sql.py:34 sql：DELETE FROM shop_user WHERE user_name = %s
+DEBUG    log_name:sql.py:36 []
+INFO     log_name:sql.py:34 sql：INSERT INTO shop_user (user_id, user_name, user_password, user_phone, user_email, user_address, user_status) VALUES(2, %s, '000', '123456', '123@qq.com', null , 0)
+DEBUG    log_name:sql.py:36 []
+INFO     log_name:sql.py:24 关闭数据库
+INFO     log_name:BasePage.py:64 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin
+INFO     log_name:BasePage.py:64 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000
+INFO     log_name:BasePage.py:64 点击：('xpath', "//input[@placeholder='验证码']")，并输入：tgrz
+INFO     log_name:BasePage.py:133 点击：用户登录
+INFO     log_name:conftest.py:68 登录成功
+INFO     log_name:Event.py:68 成功添加商品到购物车
+INFO     log_name:ShopCar.py:43 点击商品+
+INFO     log_name:test_car_order.py:79 点击前数量：1,点击后数量：2
+INFO     log_name:BasePage.py:133 点击：退出登录
+INFO     log_name:conftest.py:71 退出登录

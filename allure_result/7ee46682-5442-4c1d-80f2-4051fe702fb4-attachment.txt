@@ -1,0 +1,4 @@
+INFO     log_name:conftest.py:62 跳过登录逻辑
+INFO     log_name:test_home_usercenter.py:138 本用例故意制造错误，测试将错误截图保存到allure报告中
+INFO     log_name:conftest.py:62 跳过登录逻辑
+INFO     log_name:test_home_usercenter.py:138 本用例故意制造错误，测试将错误截图保存到allure报告中

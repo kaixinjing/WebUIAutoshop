@@ -19,8 +19,12 @@ from WebUIAutoshop.settings import ENV
 
 
 class TestHomeUserCenter:
+    @allure.feature("搜索")
+    @allure.story("首页搜索")
+    @allure.title("搜索存在的商品")
     def test_shop_016_skip_login(self, browser):
         driver = browser
+        driver.get_url(ENV.url)
         home = Home(driver)
         home.sendkey_search("花")
         home.click_search()
@@ -30,8 +34,12 @@ class TestHomeUserCenter:
         log.info(f"搜索：花, in 结果：{text}")
         assert "花" in text[0]
 
+    @allure.feature("搜索")
+    @allure.story("首页搜索")
+    @allure.title("搜索不存在的商品")
     def test_shop_017_skip_login(self, browser):
         driver = browser
+        driver.get_url(ENV.url)
         home = Home(driver)
         home.sendkey_search("哈哈")
         home.click_search()
@@ -40,8 +48,12 @@ class TestHomeUserCenter:
         log.info(f"搜索：哈哈, in 结果：{text}")
         assert text is None
 
+    @allure.feature("搜索")
+    @allure.story("首页搜索")
+    @allure.title("空搜索")
     def test_shop_018_skip_login(self, browser):
         driver = browser
+        driver.get_url(ENV.url)
         home = Home(driver)
         home.click_search()
         sleep(0.2)
@@ -49,6 +61,9 @@ class TestHomeUserCenter:
         log.info(f"空搜索,数量：{len(text)},结果：{text}")
         assert len(text) > 0
 
+    @allure.feature("个人中心")
+    @allure.story("我的订单")
+    @allure.title("支付未支付订单")
     def test_shop_019(self, browser):
         driver = browser
         Event.event_good_details(driver)
@@ -69,6 +84,9 @@ class TestHomeUserCenter:
         else:
             log.info("当前订单状态异常")
 
+    @allure.feature("个人中心")
+    @allure.story("我的订单")
+    @allure.title("删除已支付订单")
     def test_shop_020(self, browser):
         driver = browser
         Event.event_good_details(driver)
@@ -83,6 +101,9 @@ class TestHomeUserCenter:
         order_id2 = order.find_order_id()
         assert order_id1 != order_id2
 
+    @allure.feature("个人中心")
+    @allure.story("我的购物车")
+    @allure.title("进入我的购物车")
     def test_shop_021(self, browser):
         driver = browser
         driver.get_url(ENV.UserCenter)
@@ -95,6 +116,7 @@ class TestHomeUserCenter:
 
     @allure.feature("个人中心")
     @allure.step("修改个人信息")
+    @allure.title("修改个人信息")
     @pytest.mark.parametrize("name, phone, email, address", [('admin', '123456', '123@qq.com', '北京')])
     def test_shop_022(self, name, phone, email, address, browser):
         driver = browser
@@ -107,10 +129,12 @@ class TestHomeUserCenter:
         log.info(f"修改用户成功，名称为：{user_name}")
         assert user_name == name
 
+    @allure.feature("测试用例")
+    @allure.story("测试用例")
+    @allure.title("测试将错误截图保存到allure报告中")
     def test_shop_023_skip_login(self, browser):
         driver = browser
         driver.get_url(ENV.url)
-<<<<<<< HEAD
         log.info("本用例故意制造错误，测试将错误截图保存到allure报告中")
         driver.find_element(By.XPATH, "//img[@src='img/laaaogo.png']")
 
@@ -121,15 +145,3 @@ if __name__ == '__main__':
     #             '--alluredir=../../allure_result'])
     #os.system(r"allure generate ../../allure_result -o ../../allure_page -c")
     #subprocess.Popen(r"allure open ../../allure_page", shell=True)
-=======
-        driver.find_element(By.XPATH, "//img[@src='img/laaaogo.png']")
-
-
-
-if __name__ == '__main__':
-    # pytest.main(['-vs', 'test_home_usercenter.py::TestHomeUserCenter::test_shop_023'])
-    pytest.main(['-vs', 'test_home_usercenter.py::TestHomeUserCenter::test_shop_023_skip_login', '--clean-alluredir',
-                 '--alluredir=../../allure_result'])
-    os.system(r"allure generate ../../allure_result -o ../../allure_page -c")
-    subprocess.Popen(r"allure open ../../allure_page", shell=True)
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0

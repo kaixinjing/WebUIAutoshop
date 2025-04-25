@@ -1,1 +1,1 @@
-[]
+[{"name":"Jenkins","type":"jenkins","url":"http://localhost:8081/","buildOrder":23,"buildName":"WebUIAutoshop #23","buildUrl":"http://localhost:8081/job/WebUIAutoshop/23/","reportName":"AllureReport","reportUrl":"http://localhost:8081/job/WebUIAutoshop/23/allure"}]

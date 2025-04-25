@@ -88,11 +88,8 @@ class ShopCar:
     # 返回页面上的所有商品数量
     def find_quantity_all(self):
         quantity = self.driver.find_elements(self.goods_son)
-<<<<<<< HEAD
         if quantity is None:
             return 0
-=======
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
         return len(quantity)
 
     # 计算并返回所有商品金额(用于断言)

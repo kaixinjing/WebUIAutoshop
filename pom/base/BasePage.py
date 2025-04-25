@@ -1,6 +1,9 @@
+import re
 import os
-from time import sleep
+import time
 import allure
+from time import sleep
+from selenium.webdriver.chrome.options import Options
 from WebUIAutoshop.common.log import log
 from selenium import webdriver
 from selenium.common import NoSuchElementException, TimeoutException
@@ -8,9 +11,6 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import time
-import re
-
 from WebUIAutoshop.config.conf import ALLURE_IMG_DIR
 
 
@@ -21,16 +21,14 @@ class BasePage:
                 self.driver = browser
             else:
                 service = Service(r'D:\JetBrains\Chromedrive\chromedriver.exe')
-                self.driver = webdriver.Chrome(service=service)
+                chrome_options = Options()
+                chrome_options.add_argument("--no-sandbox")
+                chrome_options.add_argument("--disable-dev-shm-usage")
+                chrome_options.add_argument("--headless")  # 无头模式
+                chrome_options.add_argument("--window-size=1920,1080")
+                self.driver = webdriver.Chrome(service=service, options=chrome_options)
                 self.driver.implicitly_wait(10)
-                self.driver.maximize_window()
-
-<<<<<<< HEAD
-                # 初始化
-=======
-                # 初始化数据
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
-                # MysqlAuto().execute()
+                # self.driver.maximize_window()
         except Exception as e:
             log.error(f"初始化失败：{e}")
             raise
@@ -95,20 +93,12 @@ class BasePage:
                     EC.presence_of_element_located(selector)
                 )
             except (TimeoutException, NoSuchElementException) as e:
-<<<<<<< HEAD
                 log.error(f"重试 {attempt + 1} 次")
-=======
-                log.error(f"尝试 {attempt + 1} 次后失败异常为: {e}")
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
                 if attempt < retries - 1:
                     time.sleep(1)  # 等待1秒后重试
                 else:
                     log.error(f"Element 不存在 after {retries} attempts: {selector}")
-<<<<<<< HEAD
                     # raise
-=======
-                    raise  # 手动抛出异常
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
         return None
 
     # 找到多个元素
@@ -119,20 +109,12 @@ class BasePage:
                     EC.presence_of_all_elements_located(selector)
                 )
             except (TimeoutException, NoSuchElementException) as e:
-<<<<<<< HEAD
                 log.error(f"重试 {attempt + 1} ")
-=======
-                log.error(f"尝试 {attempt + 1} 次后失败异常为: {e}")
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
                 if attempt < retries - 1:
                     time.sleep(1)  # 等待1秒后重试
                 else:
                     log.error(f"Element 不存在 after {retries} attempts: {selector}")
-<<<<<<< HEAD
                     # raise
-=======
-                    raise  # 手动抛出异常
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
         return None
 
     # 得到元素text文本

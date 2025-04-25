@@ -36,10 +36,7 @@ class TestCarOrder:
     def test_shop_006_skip_login(self, browser):
         driver = browser
         Event.event_add_car(driver)
-<<<<<<< HEAD
         sleep(0.2)
-=======
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
         text = driver.find_alert_text()
         assert text == '你还未登录!'
 
@@ -189,13 +186,7 @@ class TestCarOrder:
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
     #pytest.main(['-vs', 'test_car_order.py'])
     pytest.main(['-vs', 'test_car_order.py::TestCarOrder::test_shop_008'])
     #pytest.main(['-vs', 'test_car_order.py::TestCarOrder::test_shop_015', '--clean-alluredir', '--alluredir=../../allure_result'])
     #os.system(r"allure generate ../../allure_result -o ../../allure_page -c")
-=======
-    # pytest.main(['-vs', 'test_car_order.py::TestCarOrder::test_shop_005'])
-    pytest.main(['-vs', 'test_car_order.py::TestCarOrder::test_shop_015', '--clean-alluredir', '--alluredir=../../allure_result'])
-    os.system(r"allure generate ../../allure_result -o ../../allure_page -c")
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0

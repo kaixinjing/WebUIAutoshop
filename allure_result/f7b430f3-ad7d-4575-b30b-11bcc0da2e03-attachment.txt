@@ -1,0 +1,2 @@
+INFO     log_name:conftest.py:62 跳过登录逻辑
+INFO     log_name:test_home_usercenter.py:48 搜索：哈哈, in 结果：None

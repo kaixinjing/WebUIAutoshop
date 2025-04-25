@@ -1,0 +1,5 @@
+INFO     log_name:conftest.py:62 跳过登录逻辑
+INFO     log_name:BasePage.py:62 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin
+INFO     log_name:BasePage.py:62 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000
+INFO     log_name:BasePage.py:62 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh
+DEBUG    log_name:conftest.py:28 关闭浏览器

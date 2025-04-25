@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import os
 
 import allure
@@ -12,14 +11,6 @@ from WebUIAutoshop.pom.base.Event import Event
 from WebUIAutoshop.pom.base.HomePage import HomePage
 from WebUIAutoshop.settings import ENV, DBSql
 from WebUIAutoshop.config.conf import DATA_YAML
-=======
-import allure
-import pytest
-from WebUIAutoshop.common.log import log
-from WebUIAutoshop.pom.base.Event import Event
-from WebUIAutoshop.pom.base.HomePage import HomePage
-from WebUIAutoshop.settings import ENV
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
 
 driver = None
 
@@ -37,7 +28,6 @@ def browser():
     log.debug('关闭浏览器')
 
 
-<<<<<<< HEAD
 # @pytest.fixture(scope='function', autouse=True)
 # def get_yaml_data(request):
 #     marker = request.node.get_closest_marker("get_yaml_data")
@@ -57,8 +47,6 @@ def browser():
 #     yield test_data
 
 
-=======
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
 @pytest.fixture(scope='function', autouse=True)
 @allure.title("登录或退出")
 def login_and_quit(browser, request):
@@ -74,13 +62,9 @@ def login_and_quit(browser, request):
             log.info("跳过登录逻辑")
             yield
             return
-<<<<<<< HEAD
     MysqlAuto().execute(DBSql.sql_list, DBSql.test_name)
     user = get_yaml_data('data.yaml', 'test_user')
     Event.event_login(browser, user[0]['username'], user[0]['password'], None)
-=======
-    Event.event_login(browser, "admin", "000", None)
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
     log.info("登录成功")
     yield
     Event.event_login_quit(browser)

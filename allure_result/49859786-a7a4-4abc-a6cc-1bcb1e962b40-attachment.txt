@@ -1,0 +1,8 @@
+INFO     log_name:conftest.py:62 跳过登录逻辑
+INFO     log_name:BasePage.py:64 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin
+INFO     log_name:BasePage.py:64 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000
+INFO     log_name:BasePage.py:64 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Iq9q
+INFO     log_name:BasePage.py:133 点击：用户登录
+INFO     log_name:BasePage.py:64 点击：('xpath', "//input[@placeholder='验证码']")，并输入：4qdh
+INFO     log_name:BasePage.py:133 点击：用户登录
+INFO     log_name:BasePage.py:133 点击：退出登录

@@ -39,11 +39,8 @@ class Order:
     # 返回第一个订单id
     def find_order_id(self):
         order_id = self.driver.get_text(self.order_id)
-<<<<<<< HEAD
         if order_id is None:
             return None
-=======
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
         return order_id.split(":")[1]
 
     # 返回订单里的商品信息

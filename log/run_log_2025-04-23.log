@@ -1,0 +1,91 @@
+[INFO] [2025-04-23  21:35:26.532] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:35:39.207] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:35:39.619] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:35:41.127] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：m8re BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:35:41.245] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:35:49.578] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:35:49.598] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:35:53.626] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:35:54.025] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:35:55.154] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：ivmk BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:35:55.242] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:35:55.435] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:35:59.575] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:35:59.973] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:36:00.340] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:38:49.912] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:38:53.973] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:38:54.426] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:38:55.916] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：b42c BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:38:56.010] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:39:03.519] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:39:03.537] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:39:07.327] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:39:07.699] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:39:08.811] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：56ia BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:39:08.917] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:39:09.106] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:39:12.989] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:39:13.340] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:39:13.706] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:32.038] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:45:35.850] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:36.222] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:37.025] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Le6fh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:37.162] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:45:37.890] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：igz6 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:37.982] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:45:45.211] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:45:45.217] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:45:49.212] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:49.579] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:50.336] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lsjgq BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:50.421] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:45:51.094] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：La99d BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:51.217] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:45:51.969] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Iu3n BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:52.037] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:45:52.687] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：9xuv BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:52.745] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:45:52.885] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:45:56.746] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:57.085] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:45:57.439] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:46:43.637] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:46:47.466] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:46:47.831] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:46:49.273] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：L9zkI BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:46:49.354] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:46:50.509] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：8vj5 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:46:50.608] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:46:57.969] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:46:57.973] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:47:01.829] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:47:02.209] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:47:03.288] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lvsno BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:47:03.381] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:47:04.642] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lg5fp BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:47:04.741] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:47:05.900] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：dve3 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:47:05.998] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:47:06.192] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:47:10.200] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:47:10.565] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:47:10.949] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:48:47.702] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:48:51.616] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:48:51.999] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:48:53.411] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：p3eq BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:48:53.488] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:49:00.594] : 点击：退出登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:49:00.611] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:49:04.588] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:49:04.943] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：hhh BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:49:06.064] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：Lcmr9 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:49:06.152] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:49:07.293] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：qy5u BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:49:07.402] : 点击：用户登录 BasePage.py -> click line:131 
+[INFO] [2025-04-23  21:49:07.608] : 跳过登录逻辑 conftest.py -> login_and_quit line:62 
+[INFO] [2025-04-23  21:49:11.425] : 点击：('xpath', "//input[@placeholder='请输入用户名']")，并输入：admin BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:49:11.792] : 点击：('xpath', "//input[@placeholder='请输入密码']")，并输入：000 BasePage.py -> send_keys line:62 
+[INFO] [2025-04-23  21:49:12.159] : 点击：('xpath', "//input[@placeholder='验证码']")，并输入：hhh BasePage.py -> send_keys line:62 

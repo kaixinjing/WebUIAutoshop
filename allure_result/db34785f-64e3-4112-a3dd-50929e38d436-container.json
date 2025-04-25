@@ -1,1 +1,0 @@
-{"uuid": "7a043cee-4de5-47db-8550-e6be5668c555", "children": ["99dbe8f5-45cb-47f5-8b32-1cba62b0c5f9"], "befores": [{"name": "打开或关闭浏览器", "status": "passed", "start": 1744633057584, "stop": 1744633061660}], "afters": [{"name": "打开或关闭浏览器::0", "status": "passed", "start": 1744633066240, "stop": 1744633068588}], "start": 1744633057584, "stop": 1744633068588}

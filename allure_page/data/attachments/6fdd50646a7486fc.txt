@@ -1,0 +1,4 @@
+DEBUG    log_name:conftest.py:23 创建driver对象
+DEBUG    log_name:conftest.py:25 打开浏览器
+INFO     log_name:conftest.py:62 跳过登录逻辑
+INFO     log_name:test_home_usercenter.py:34 搜索：花, in 结果：['蝴蝶兰仿真花', '欧式花瓶', '干花花瓶', '长寿花', '蝴蝶兰仿真花', '欧式花瓶', '干花花瓶', '长寿花']

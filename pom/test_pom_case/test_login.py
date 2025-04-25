@@ -1,45 +1,24 @@
-<<<<<<< HEAD
 import os
 import subprocess
-
 import allure
 import pytest
 from WebUIAutoshop.common.yaml import get_yaml_data
-=======
-import allure
-import pytest
-from WebUIAutoshop.common.log import log
-from WebUIAutoshop.pom.page.GoodsDetails import GoodsDetails
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
 from WebUIAutoshop.pom.page.UserCenter import UserCenter
 from WebUIAutoshop.settings import ENV
 from WebUIAutoshop.pom.page.Home import Home
 from WebUIAutoshop.pom.page.Login import Login
-<<<<<<< HEAD
-=======
-from WebUIAutoshop.pom.page.ShopCar import ShopCar
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
 from WebUIAutoshop.pom.base.Event import Event
 
 
 class TestLogin:
-    @allure.feature("登录与注册")
-    @allure.story("登录")
-<<<<<<< HEAD
-    # @pytest.mark.parametrize('username, password, result, code', [
-    #     ('admin', '000', "你好", None),
-    #     ('hhh', 'hhh', "用户", None),
-    #     ('admin', '000', "验证码", "hhh")
-    # ], ids=(
-    #     'test_shop_001',
-    #     'test_shop_002',
-    #     'test_shop_003',
-    # ))
     @pytest.mark.parametrize(
         'case',
         get_yaml_data('data.yaml', 'test_login'),
         ids=lambda case: case['name']
     )
+    @allure.feature("登录与注册")
+    @allure.story("登录")
+    @allure.title("三种情况登录测试{case[name]}")
     def test_shop_001(self, case, browser):
         driver = browser
         driver.get_url(ENV.url)
@@ -54,25 +33,6 @@ class TestLogin:
 
         Event.event_login(driver, username, password, code)
 
-=======
-    @pytest.mark.parametrize('username, password, result, code', [
-        ('admin', '000', "你好", None),
-        ('hhh', 'hhh', "用户", None),
-        ('admin', '000', "验证码", "hhh")
-    ], ids=(
-        'test_shop_001',
-        'test_shop_002',
-        'test_shop_003',
-    ))
-    def test_shop(self, username, password, result, code, browser):
-        driver = browser
-        home = Home(driver)
-        login = Login(driver)
-        usercenter = UserCenter(driver)
-        driver.get_url(ENV.url)
-        home.click_login_btn()
-        Event.event_login(driver, username, password, code)
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
         if "你好" in result:
             text_hellow = driver.get_text(home.login_msg)
             # 进入个人中心
@@ -89,10 +49,6 @@ class TestLogin:
 
 
 if __name__ == '__main__':
-<<<<<<< HEAD
-    pytest.main(['-vs', 'test_login.py::TestLogin::test_shop'])
-    #os.system(r"allure generate ../../allure_result -o ../../allure_page -c")
-    #subprocess.Popen(r"allure open ../../allure_page", shell=True)
-=======
-    pytest.main(["-vs"])
->>>>>>> b0c550d611f6f8e2440119172c9ea705be8e13e0
+    pytest.main(['-vs', 'test_login.py::TestLogin::test_shop_001', '--clean-alluredir', '--alluredir=../../allure_result'])
+    os.system(r"allure generate ../../allure_result -o ../../allure_page -c")
+    subprocess.Popen(r"allure open ../../allure_page", shell=True)
